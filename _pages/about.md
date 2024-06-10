@@ -25,6 +25,6 @@ I will be very happy to talk to you!
 
 ## Looking for short projects
 
-If you're a local undergrad (in the Bay Area) looking for short-term projects, have a look at my [research](/research) and if interests you, feel free to write to me with your interests, availability and level of programming. I have a few projects in mind and would be happy to discuss with you. 
+If you're an undergrad looking for short-term projects, have a look at my [research](/research) and if interests you, feel free to write to me with your interests, availability and level of programming. I have a few projects in mind and would be happy to discuss with you.  
 
 <!-- My research was supervised by [Prof. Dr. Guinevere Kauffmann](https://www.mpa-garching.mpg.de/galaxyformation) and [Dr. Dylan Nelson](https://www.ita.uni-heidelberg.de/%7Ednelson/).  -->
