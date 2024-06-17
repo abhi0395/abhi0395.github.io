@@ -21,13 +21,13 @@ header:
 </p>
 </figure>
 
-Broadly speaking, I study how galaxies form and evolve using observational tools. Understanding the physical processes that form the galaxies and set their evolution has been one of the central problems in astronomy. With the advent of advancements in computer simulations combined with powerful telescopes, we have slowly started to uncover the hidden mysteries of our vast universe. Recent large-scale cosmological simulations have revealed that the galaxies are surrounded by a diffuse gaseous halo, known as the [circumgalactic medium (CGM)](https://www.annualreviews.org/doi/10.1146/annurev-astro-091916-055240). The interplay between different gas flows (outflows and inflows also known as the cosmic baryon cycle) in this invisible medium is the key to a clear and accurate picture of the fate of galaxies. In a broader sense, I want to understand the -
-  * physical processes that govern the galaxy formation and evolution.
-  * the complex nature of the gas flows in the CGM and how do they depend on and impact the galaxy - - properties and its environment.
+Broadly speaking, I study how galaxies form and evolve using observational tools. Understanding the physical processes that form the galaxies and set their evolution has been one of the central problems in astronomy. With the advent of advancements in computer simulations combined with powerful telescopes, we have slowly started to uncover the hidden mysteries of our vast universe. Recent large-scale cosmological simulations have revealed that the galaxies are surrounded by a diffuse gaseous halo, known as the [circumgalactic medium (CGM)](https://www.annualreviews.org/doi/10.1146/annurev-astro-091916-055240). The interplay between different gas flows (outflows and inflows, also known as the cosmic baryon cycle) in this invisible medium is the key to a clear and accurate picture of the fate of galaxies. In a broader sense, I want to understand the -
+  * physical processes that govern the formation and evolution of galaxies and their environment.
+  * the complex nature of the gas flows in the CGM and how they depend on and impact the galaxy - - properties and its environment.
   * methods and techniques required to analyze the large datasets coming from various telescopes.
 
 ## Cosmic Baryon Cycle
-In simple terms, the ["cosmic baryon cycle"](https://arxiv.org/abs/2011.01935) is very similar to how evaporation and rain work on the earth. We all know that the sun heats the water on earth, which evaporates and goes up and condenses to form clouds that shower rain on earth. This process continues, and we call it the water cycle in hydrology. Similarly, the pristine gas (mostly hydrogen and helium) is accreted (also known as the inflow) by the galactic halo (CGM), where it forms gaseous clouds (a very complex physical mechanism) which falls on the galactic disk where it is turned into stars. Finally, these stars release a lot of energy via supernovae or stellar winds, which kick gas out of the galaxy into the halo (CGM) (known as the galactic outflows). This process also makes the CGM very multiphase, where gases with different temperatures and densities compete. Will the galaxy continue getting fuel and forming new stars, or will it stop forming stars, depending on the balance between these gas flows? However, predicting or fully understanding the fate of galaxy formation is very challenging!
+In simple terms, the ["cosmic baryon cycle"](https://arxiv.org/abs/2011.01935) is very similar to how evaporation and rain work on the earth. We all know that the sun heats the water on Earth, which evaporates and goes up and condenses to form clouds that shower rain on Earth. This process continues, and we call it the water cycle in hydrology. Similarly, the pristine gas (mostly hydrogen and helium) is accreted (also known as the inflow) by the galactic halo (CGM), where it forms gaseous clouds (a very complex physical mechanism) which falls on the galactic disk where it is turned into stars. Finally, these stars release a lot of energy via supernovae or stellar winds, which kick gas out of the galaxy into the halo (CGM) (known as the galactic outflows). This process also makes the CGM very multiphase, where gases with different temperatures and densities compete. Will the galaxy continue getting fuel and forming new stars, or will it stop forming stars, depending on the balance between these gas flows? However, predicting or fully understanding the fate of galaxy formation is very challenging!
 
 
 ## Multiphase Circumgalactic Medium in Observations
@@ -40,7 +40,7 @@ The different absorption lines can trace [different phases](/images/cgm//absorbe
 Below are some of my work in this field.
 
 <details open>
-<summary>**The cool circumgalactic medium of galaxies**</summary>
+<summary><b>The cool circumgalactic medium of galaxies</b></summary>
 
 In [(Anand et al. 2021)](https://arxiv.org/abs/2103.15842), I used the largest quasar catalog from the [SDSS Data Release 16 (DR16)](https://www.sdss.org/dr16/) to search for MgII absorbers in their spectra. Given the large dataset (~ 1 million quasar spectra), I designed a novel automated pipeline to model the quasar continuum and search for MgII doublets in their spectra.  
 <p float="center">
@@ -63,7 +63,7 @@ We also find that the stellar activity of ELGs plays a very important role in en
 </details>
 
 <details open>
-<summary>**The cool metal gas in galaxy clusters**</summary>
+<summary><b>The cool metal gas in galaxy clusters</b></summary>
 
 In [Anand et al. 2022](https://arxiv.org/abs/2201.07811), I extended the MgII absorber study to the galaxy clusters. In this high mass regime (see Figure on left), we have the potential to shed light on the role of the environment in shaping the CGM of galaxies. Cluster halo gas known as the [intracluster medium (ICM)](https://en.wikipedia.org/wiki/Intracluster_medium) is heated up to high temperatures ($T \sim 10^7 - 10^8$ K) due to gravitational collapse. In addition, outflows powered by supermassive black holes in the center of clusters can also heat the gas. The hot ICM emits mostly at X-ray wavelengths due to radiation from thermal [bremsstrahlung](https://en.wikipedia.org/wiki/Bremsstrahlung) produced in the highly ionized gas. Although the ICM is hot, cold/cool gas has sometimes been detected in and around clusters. The most frequently observed elements are hydrogen (Hα, Lyα) and metal absorption lines (MgII, OVI), which are detected in the spectra of background quasars.
 
@@ -81,7 +81,7 @@ Furthermore, I also investigated the connection between MgII absorbers and the m
 </details>
 
 <details open>
-<summary>**Understanding the large and small-scale clustering of metal absorbers in the universe**</summary>
+<summary><b>Understanding the large and small-scale clustering of metal absorbers in the universe</b></summary>
 
 Currently, I am also looking into the small and large scale [clustering properties]([https://en.wikipedia.org/wiki/Quasar](https://en.wikipedia.org/wiki/Correlation_function_(astronomy))) of cool and warm (traced by MgII and CIV absorbers in the spectra of [quasar](https://en.wikipedia.org/wiki/Quasar)) in the Universe <span style="color:blue">(Anand+ in prep.)</span>. The scales at which these absorbers show excess clustering against the random background can trace large-scale structures in the universe. Previous studies limited by small sample sizes suffer from large uncertainties on those scales, which can reduced by orders of magnitude with our large sample of absorbers. Since the physical origin of cool and warm gas in the universe is significantly different, those differences would be visible on the clustering amplitudes. I also plan to put constraints on the gas fraction (Omegas) for these metals in our universe at different epochs.
 </details>
@@ -91,7 +91,7 @@ Currently, I am also looking into the small and large scale [clustering properti
 With the advent of ongoing large spectroscopic surveys, it has increasingly become important to analyze large numbers of astronomical spectra and measure their redshifts. As we move towards precision cosmology, getting precise redshift measurements of galaxies and quasars is extremely important for all cosmological surveys. In recent years, surveys like DESI have started taking unprecedented amounts of astronomical spectra to perform a next-generation cosmological analysis. Measuring their precise redshifts is one of the outstanding challenges we face. It is impossible to inspect millions of spectra and get the best redshift visually; therefore, we have to rely on dimensional reduction techniques and model the spectra of those objects. One of the extensively used approaches is the principal component analysis (PCA), which reduces a large set of features into their principal components (orthogonal eigenvectors) and constructs them with a linear combination of these features. PCA is exceptionally computationally efficient and fast; however, it suffers from the fact that it does not use any physical features of those astronomical objects. This often results in unphysical modeling or overfitting of the input spectra.
 
 <details open>
-<summary>Archetype-based redshift estimation for Dark Energy Survey Instrument</summary>
+<summary><b>Archetype-based redshift estimation for Dark Energy Survey Instrument</b></summary>
 
 In my recent work [Anand et al. 2024](https://arxiv.org/abs/2405.19288), I worked on a computationally efficient galaxy archetype-based redshift estimation and spectral classification method (see above figure) for the Dark Energy Survey Instrument (DESI) survey. Our proposed approach improves upon this existing method by refitting the spectra with carefully generated physical galaxy archetypes combined with additional terms designed to absorb data reduction defects and provide more physical models to the DESI spectra. We test our method on an extensive dataset derived from the survey validation (SV) and Year 1 (Y1) data of DESI. Our findings indicate that the new method delivers marginally better redshift success for SV tiles while reducing catastrophic redshift failure by 10−30%. At the same time, results from millions of targets from the main survey show that our model has relatively higher redshift success and purity rates (0.5−0.8% higher) for galaxy targets while having similar success for QSOs. These improvements also demonstrate that the main DESI redshift pipeline is generally robust. Additionally, it reduces the false positive redshift estimation by 5−40% for sky fibers. 
 
