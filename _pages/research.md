@@ -39,7 +39,7 @@ The different absorption lines can trace [different phases](/images/cgm//absorbe
 
 Below are some of my work in this field.
 
-<details open>
+<details>
 <summary><b>The cool circumgalactic medium of galaxies</b></summary>
 
 In [(Anand et al. 2021)](https://arxiv.org/abs/2103.15842), I used the largest quasar catalog from the [SDSS Data Release 16 (DR16)](https://www.sdss.org/dr16/) to search for MgII absorbers in their spectra. Given the large dataset (~ 1 million quasar spectra), I designed a novel automated pipeline to model the quasar continuum and search for MgII doublets in their spectra.  
