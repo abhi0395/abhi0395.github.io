@@ -39,9 +39,7 @@ The different absorption lines can trace [different phases](/images/cgm//absorbe
 
 Below are some of my work in this field.
 
-<details><summary>
-  
-**The cool circumgalactic medium of galaxies**</summary>
+**The cool circumgalactic medium of galaxies**
 
 In [(Anand et al. 2021)](https://arxiv.org/abs/2103.15842), I used the largest quasar catalog from the [SDSS Data Release 16 (DR16)](https://www.sdss.org/dr16/) to search for MgII absorbers in their spectra. Given the large dataset (~ 1 million quasar spectra), I designed a novel automated pipeline to model the quasar continuum and search for MgII doublets in their spectra.  
 <p float="center">
@@ -61,7 +59,6 @@ The pipeline uses a dimensional reduction technique called [Non-negative matrix 
 In the same work, I also connected MgII absorbers with CGM of [emission-line galaxies (ELGs or star-forming)](https://www.usm.uni-muenchen.de/people/saglia/praktikum/galspectra/node4.html) and [luminous red galaxies (LRGs or passive)](https://classic.sdss.org/dr2/products/general/edr_html/node53.html) from the SDSS DR16 to characterize the properties of cold gas in their CGM. With a very robust statistical analysis, our study implied that cool circumgalactic gas has a different physical origin for star-forming versus quiescent galaxies. We find that both MgII absorption and its covering fraction are 2 - 5 times higher in the CGM of ELGs than LRGs within ~ 50 kpc from the galaxy. Also, there is a very sharp decline in the covering fraction for both kinds of galaxies, and at large distances, they are within the error bars (see left Figure). The rapid decline in the covering fraction at ~ 50 kpc implies that MgII properties are regulated by galactic outflows in the inner part of CGM, while it is tightly linked with the dark matter halo in outer regions.
 
 We also find that the stellar activity of ELGs plays a very important role in enriching their CGM, where the MgII covering fraction correlates strongly with the star formation activity (SFR) of the galaxy (see right Figure). In addition, we also see that MgII is rarely detected in the massive halos. The relative line-of-sight (LOS) velocity analysis also supports an outflow origin of MgII gas in ELGs, where the velocity dispersion of the absorbing cloud relative to the halo is similar to the virial velocity of the dark matter halo. On the other hand, it is suppressed by 40-50 % in the LRGs, suggesting a different origin of MgII gas in their halo, possibly accretion or stripping from the neighboring halo. To summarize, our analysis, combined with previous studies, implied that cool circumgalactic gas has a different physical origin for star-forming versus quiescent galaxies.
-</details>
 
 **The cool metal gas in galaxy clusters**
 
