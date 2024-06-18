@@ -39,10 +39,7 @@ The different absorption lines can trace [different phases](/images/cgm//absorbe
 
 Below are some of my work in this field.
 
-<details>
-<summary>
-  <b>The cool circumgalactic medium of galaxies</b><br>
-</summary>
+**The cool circumgalactic medium of galaxies**
 
 In [(Anand et al. 2021)](https://arxiv.org/abs/2103.15842), I used the largest quasar catalog from the [SDSS Data Release 16 (DR16)](https://www.sdss.org/dr16/) to search for MgII absorbers in their spectra. Given the large dataset (~ 1 million quasar spectra), I designed a novel automated pipeline to model the quasar continuum and search for MgII doublets in their spectra.  
 <p float="center">
@@ -59,15 +56,11 @@ The pipeline uses a dimensional reduction technique called [Non-negative matrix 
   <figcaption>Left: MgII covering fraction in the CGM of star-forming (blue) and passive galaxies (red). Right: MgII covering fraction within galactic halo as a function of star formation rate of galaxies. Both figures are from Anand et al. 2021</figcaption>
 </p>
 
-In the same work, I also connected MgII absorbers with CGM of [emission-line galaxies (ELGs or star-forming)](https://www.usm.uni-muenchen.de/people/saglia/praktikum/galspectra/node4.html) and [luminous red galaxies (LRGs or passive)](https://classic.sdss.org/dr2/products/general/edr_html/node53.html) from the SDSS DR16 to characterize the properties of cold gas in their CGM. With a very robust statistical analysis, our study implied that cool circumgalactic gas has a different physical origin for star-forming versus quiescent galaxies. We find that both MgII absorption and its covering fraction are 2 - 5 times higher in the CGM of ELGs than LRGs within ~ 50 kpc from the galaxy. Also, there is a very sharp decline in the covering fraction for both kinds of galaxies, and at large distances, they are within the error bars (see left Figure). 
-The rapid decline in the covering fraction at ~ 50 kpc implies that MgII properties are regulated by galactic outflows in the inner part of CGM, while it is tightly linked with the dark matter halo in outer regions.
-We also find that the stellar activity of ELGs plays a very important role in enriching their CGM, where the MgII covering fraction correlates strongly with the star formation activity (SFR) of the galaxy (see right Figure). In addition, we also see that MgII is rarely detected in the massive halos. The relative line-of-sight (LOS) velocity analysis also supports an outflow origin of MgII gas in ELGs, where the velocity dispersion of the absorbing cloud relative to the halo is similar to the virial velocity of the dark matter halo. On the other hand, it is suppressed by 40-50 % in the LRGs, suggesting a different origin of MgII gas in their halo, possibly accretion or stripping from the neighboring halo. To summarize, our analysis, combined with previous studies, implied that cool circumgalactic gas has a different physical origin for star-forming versus quiescent galaxies.
-</details>
+In the same work, I also connected MgII absorbers with CGM of [emission-line galaxies (ELGs or star-forming)](https://www.usm.uni-muenchen.de/people/saglia/praktikum/galspectra/node4.html) and [luminous red galaxies (LRGs or passive)](https://classic.sdss.org/dr2/products/general/edr_html/node53.html) from the SDSS DR16 to characterize the properties of cold gas in their CGM. With a very robust statistical analysis, our study implied that cool circumgalactic gas has a different physical origin for star-forming versus quiescent galaxies. We find that both MgII absorption and its covering fraction are 2 - 5 times higher in the CGM of ELGs than LRGs within ~ 50 kpc from the galaxy. Also, there is a very sharp decline in the covering fraction for both kinds of galaxies, and at large distances, they are within the error bars (see left Figure). The rapid decline in the covering fraction at ~ 50 kpc implies that MgII properties are regulated by galactic outflows in the inner part of CGM, while it is tightly linked with the dark matter halo in outer regions.
 
-<details open>
-<summary>
-  <b>The cool metal gas in galaxy clusters</b><br>
-</summary>
+We also find that the stellar activity of ELGs plays a very important role in enriching their CGM, where the MgII covering fraction correlates strongly with the star formation activity (SFR) of the galaxy (see right Figure). In addition, we also see that MgII is rarely detected in the massive halos. The relative line-of-sight (LOS) velocity analysis also supports an outflow origin of MgII gas in ELGs, where the velocity dispersion of the absorbing cloud relative to the halo is similar to the virial velocity of the dark matter halo. On the other hand, it is suppressed by 40-50 % in the LRGs, suggesting a different origin of MgII gas in their halo, possibly accretion or stripping from the neighboring halo. To summarize, our analysis, combined with previous studies, implied that cool circumgalactic gas has a different physical origin for star-forming versus quiescent galaxies.
+
+**The cool metal gas in galaxy clusters**
 
 In [Anand et al. 2022](https://arxiv.org/abs/2201.07811), I extended the MgII absorber study to the galaxy clusters. In this high mass regime (see Figure on left), we have the potential to shed light on the role of the environment in shaping the CGM of galaxies. Cluster halo gas known as the [intracluster medium (ICM)](https://en.wikipedia.org/wiki/Intracluster_medium) is heated up to high temperatures ($T \sim 10^7 - 10^8$ K) due to gravitational collapse. In addition, outflows powered by supermassive black holes in the center of clusters can also heat the gas. The hot ICM emits mostly at X-ray wavelengths due to radiation from thermal [bremsstrahlung](https://en.wikipedia.org/wiki/Bremsstrahlung) produced in the highly ionized gas. Although the ICM is hot, cold/cool gas has sometimes been detected in and around clusters. The most frequently observed elements are hydrogen (Hα, Lyα) and metal absorption lines (MgII, OVI), which are detected in the spectra of background quasars.
 
@@ -82,12 +75,8 @@ The absorber-cluster cross-correlation study using our MgII absorber catalog and
 Despite the hot ICM, our analysis shows a significant covering fraction ($3-5\%$) of cold gas ($T \sim 10^4$, traced by MgII absorbers) in cluster environments on virial scales. On the other hand, the surface mass density (see Figure on left) of MgII absorbers is $2-3$ times higher in clusters than luminous red galaxies (LRGs). However, the surface mass density is $5-10$ lower than emission-line galaxies (ELGs). While the covering fraction of cool gas in clusters decreases with increasing mass of the central galaxy, the total MgII mass within $r_{500}$ is nonetheless $\sim 10$ times higher than for SDSS LRGs. The MgII covering fraction/surface mass density versus impact parameter is well described by a power law in the inner regions and an exponential function at larger distances. The characteristic scale of the transition between these two regimes is smaller for large [equivalent width](https://en.wikipedia.org/wiki/Equivalent_width) absorbers ($EW > 1Å$), implying different origin of weak and strong absorbers in dense environments.
 
 Furthermore, I also investigated the connection between MgII absorbers and the member galaxies of the cluster. Cross-correlating MgII absorption with photo -z selected cluster member galaxies from DESI reveals a statistically significant connection. The median projected distance between MgII absorbers and the nearest cluster member is $\sim200$ kpc, compared to $\sim 500$ kpc in random mocks with the same galaxy density profiles. We do not find a correlation between MgII strength and the star formation rate of the closest cluster neighbor (See figure on the right). This suggests that cool gas in clusters, as traced by MgII absorption, is (i) associated with satellite galaxies, (ii) dominated by cold gas clouds in the intracluster medium rather than by the interstellar medium of galaxies, and (iii) may originate in part from gas stripped from these cluster satellites in the past.
-</details>
 
-<details open>
-<summary>
-  <b>Understanding the large and small-scale clustering of metal absorbers in the universe</b><br>
-</summary>
+**Understanding the large and small-scale clustering of metal absorbers in the universe**
 
 Currently, I am also looking into the small and large scale [clustering properties]([https://en.wikipedia.org/wiki/Quasar](https://en.wikipedia.org/wiki/Correlation_function_(astronomy))) of cool and warm (traced by MgII and CIV absorbers in the spectra of [quasar](https://en.wikipedia.org/wiki/Quasar)) in the Universe <span style="color:blue">(Anand+ in prep.)</span>. The scales at which these absorbers show excess clustering against the random background can trace large-scale structures in the universe. Previous studies limited by small sample sizes suffer from large uncertainties on those scales, which can reduced by orders of magnitude with our large sample of absorbers. Since the physical origin of cool and warm gas in the universe is significantly different, those differences would be visible on the clustering amplitudes. I also plan to put constraints on the gas fraction (Omegas) for these metals in our universe at different epochs.
 </details>
@@ -96,15 +85,11 @@ Currently, I am also looking into the small and large scale [clustering properti
 
 With the advent of ongoing large spectroscopic surveys, it has increasingly become important to analyze large numbers of astronomical spectra and measure their redshifts. As we move towards precision cosmology, getting precise redshift measurements of galaxies and quasars is extremely important for all cosmological surveys. In recent years, surveys like DESI have started taking unprecedented amounts of astronomical spectra to perform a next-generation cosmological analysis. Measuring their precise redshifts is one of the outstanding challenges we face. It is impossible to inspect millions of spectra and get the best redshift visually; therefore, we have to rely on dimensional reduction techniques and model the spectra of those objects. One of the extensively used approaches is the principal component analysis (PCA), which reduces a large set of features into their principal components (orthogonal eigenvectors) and constructs them with a linear combination of these features. PCA is exceptionally computationally efficient and fast; however, it suffers from the fact that it does not use any physical features of those astronomical objects. This often results in unphysical modeling or overfitting of the input spectra.
 
-<details open>
-<summary>
-  <b>Archetype-based redshift estimation for Dark Energy Survey Instrument</b><br>
-</summary>
+**Archetype-based redshift estimation for Dark Energy Survey Instrument**
 
 In my recent work [Anand et al. 2024](https://arxiv.org/abs/2405.19288), I worked on a computationally efficient galaxy archetype-based redshift estimation and spectral classification method (see above figure) for the Dark Energy Survey Instrument (DESI) survey. Our proposed approach improves upon this existing method by refitting the spectra with carefully generated physical galaxy archetypes combined with additional terms designed to absorb data reduction defects and provide more physical models to the DESI spectra. We test our method on an extensive dataset derived from the survey validation (SV) and Year 1 (Y1) data of DESI. Our findings indicate that the new method delivers marginally better redshift success for SV tiles while reducing catastrophic redshift failure by 10−30%. At the same time, results from millions of targets from the main survey show that our model has relatively higher redshift success and purity rates (0.5−0.8% higher) for galaxy targets while having similar success for QSOs. These improvements also demonstrate that the main DESI redshift pipeline is generally robust. Additionally, it reduces the false positive redshift estimation by 5−40% for sky fibers. 
 
 Though it is slower than the classic PCA, it resolves the problems of unphysical models and overfitting. This method is extremely useful for DESI and upcoming spectroscopic surveys such as 4MOST and WEAVE. The [github repository](https://github.com/desihub/redrock) details the algorithm and code. 
-</details>
 
 ## Past research interests and projects
 
