@@ -9,13 +9,13 @@ header:
 
 
 
-A pdf copy of my publications can also be found [here](https://raw.githubusercontent.com/abhi0395/mycv/main-pdf/tex/pubs.pdf){:target="_blank"}, it gets automatically updated on a daily basis.
+A pdf copy of my publications and citations can be found [here](https://raw.githubusercontent.com/abhi0395/mycv/main-pdf/tex/pubs.pdf){:target="_blank"}, they get automatically updated on a daily basis.
 
-My publications are also available on [NASA/ADS](https://ui.adsabs.harvard.edu/public-libraries/YPXGQEsNQg-zR9R9YBYFXw){:target="_blank"}.
+My publications and citations are also available on [NASA/ADS](https://ui.adsabs.harvard.edu/public-libraries/YPXGQEsNQg-zR9R9YBYFXw){:target="_blank"}. Always up to date.
 
-See my [google scholar]({{site.author.googlescholar}}){:target="_blank"} profile.
+See my [google scholar]({{site.author.googlescholar}}){:target="_blank"} profile. Citations may not be up to date.
 
-You can also find my articles on [INSPIRE](https://inspirehep.net/authors/2015737){:target="_blank"}.
+You can also find my articles and citations on [INSPIRE](https://inspirehep.net/authors/2015737){:target="_blank"}. May not be very up to date.
 
 
 ## You may find this useful as well ...
