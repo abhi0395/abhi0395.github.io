@@ -44,7 +44,7 @@ Below are some of my work in this field.
 In [(Anand et al. 2021)](https://arxiv.org/abs/2103.15842), I used the largest quasar catalog from the [SDSS Data Release 16 (DR16)](https://www.sdss.org/dr16/) to search for MgII absorbers in their spectra. Given the large dataset (~ 1 million quasar spectra), I designed a novel automated pipeline to model the quasar continuum and search for MgII doublets in their spectra.
 <p float="center">
   <img src="/images/mgii_work/spec.png" style="width:80%; border:1; display:block”">
-  <!-- <img src="/images/mgii_work/sfr_fc.jpg" style="width:45%; border:1; display:block”"> -->
+  <p style="text-align: center;">
   <figcaption>Quasar spectra (black) with NMF continuum (red) and detected MgII absorbers (Anand et al. 2021)</figcaption>
 </p>
 
@@ -52,7 +52,7 @@ The pipeline uses a dimensional reduction technique called [Non-negative matrix 
 
 <p float="center">
   <img src="/images/mgii_work/mgii_covering_fraction.png" style="width:90%; border:1; display:block”">
-  <!-- <img src="/images/mgii_work/sfr_fc.jpg" style="width:45%; border:1; display:block”"> -->
+  <p style="text-align: center;">
   <figcaption>Left: MgII covering fraction in the CGM of star-forming (blue) and passive galaxies (red). Right: MgII covering fraction within galactic halo as a function of star formation rate of galaxies. Both figures are from Anand et al. 2021</figcaption>
 </p>
 
@@ -69,6 +69,7 @@ The absorber-cluster cross-correlation study using our MgII absorber catalog and
 <p float="left">
   <img src="/images/cluster_work/mgii_surf_dens.png" style="width:45%; border:1; display:block”">
   <img src="/images/cluster_work/ew_vs_sfr.png" style="width:45%; border:1; display:block”">
+  <p style="text-align: center;">
   <figcaption>Left: MgII surface density around galaxy clusters. Right: Equivalent width as a function of star formation rate of cluster galaxies. Both figures are from Anand et al. 2021</figcaption>
 </p>
 
@@ -91,7 +92,7 @@ In my recent work [Anand et al. 2024](https://arxiv.org/abs/2405.19288), I worke
 
 <p float="center">
   <img src="/images/archetype_work/algorithm.png" style="width:80%; border:1; display:block”">
-  <!-- <img src="/images/mgii_work/sfr_fc.jpg" style="width:45%; border:1; display:block”"> -->
+  <p style="text-align: center;">
   <figcaption>A schematic of our archetype based per camera polynomial fitting (Anand et al. 2024)</figcaption>
 </p>
 
