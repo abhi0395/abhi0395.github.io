@@ -15,7 +15,6 @@ header:
 Broadly speaking, there are two main themes of my research:
 
   * **<u>Galaxy formation and evolution:</u>** I study how galaxies form and evolve using observational tools. Understanding the physical processes that form the galaxies and set their evolution has been one of the central problems in astronomy. With the advent of advancements in computer simulations combined with powerful telescopes, we have slowly started to uncover the hidden mysteries of our vast universe. Recent large-scale cosmological simulations have revealed that the galaxies are surrounded by a diffuse gaseous halo, known as the [circumgalactic medium (CGM)](https://www.annualreviews.org/doi/10.1146/annurev-astro-091916-055240). Understanding the interplay between different gas flows (outflows and inflows, also known as the cosmic baryon cycle) in this invisible medium is the key to a clear and accurate picture of the fate of galaxies. In a broader sense, I want to understand the -
-
     * physical processes that govern the formation and evolution of galaxies and their environment.
     * the complex nature of the gas flows in the CGM and how they depend on and impact the galaxy properties and its environment.
 
@@ -47,7 +46,7 @@ The different absorption lines can trace [different phases](/images/cgm//absorbe
 
 Below are some of my work in this field.
 
-#### **The cool circumgalactic medium of galaxies**
+**The cool circumgalactic medium of galaxies**
 
 In [(Anand et al. 2021)](https://arxiv.org/abs/2103.15842), I connected MgII absorbers with CGM of [emission-line galaxies (ELGs or star-forming)](https://www.usm.uni-muenchen.de/people/saglia/praktikum/galspectra/node4.html) and [luminous red galaxies (LRGs or passive)](https://classic.sdss.org/dr2/products/general/edr_html/node53.html) from the SDSS DR16 to characterize the properties of cold gas in their CGM. With a very robust statistical analysis, our study implied that cool circumgalactic gas has a different physical origin for star-forming versus quiescent galaxies. We find that both MgII absorption and its covering fraction are 2 - 5 times higher in the CGM of ELGs than LRGs within ~ 50 kpc from the galaxy. Also, there is a very sharp decline in the covering fraction for both kinds of galaxies, and at large distances, they are within the error bars (see left Figure). The rapid decline in the covering fraction at ~ 50 kpc implies that MgII properties are regulated by galactic outflows in the inner part of CGM, while it is tightly linked with the dark matter halo in outer regions.
 
@@ -58,7 +57,7 @@ In [(Anand et al. 2021)](https://arxiv.org/abs/2103.15842), I connected MgII abs
 
 We also find that the stellar activity of ELGs plays a very important role in enriching their CGM, where the MgII covering fraction correlates strongly with the star formation activity (SFR) of the galaxy (see right Figure). In addition, we also see that MgII is rarely detected in the massive halos. The relative line-of-sight (LOS) velocity analysis also supports an outflow origin of MgII gas in ELGs, where the velocity dispersion of the absorbing cloud relative to the halo is similar to the virial velocity of the dark matter halo. On the other hand, it is suppressed by 40-50 % in the LRGs, suggesting a different origin of MgII gas in their halo, possibly accretion or stripping from the neighboring halo. To summarize, our analysis, combined with previous studies, implied that cool circumgalactic gas has a different physical origin for star-forming versus quiescent galaxies.
 
-#### **The cool metal gas in galaxy clusters**
+**The cool metal gas in galaxy clusters**
 
 In [Anand et al. 2022](https://arxiv.org/abs/2201.07811), I extended the MgII absorber study to the galaxy clusters. In this high mass regime (see Figure on left), we have the potential to shed light on the role of the environment in shaping the CGM of galaxies. Cluster halo gas known as the [intracluster medium (ICM)](https://en.wikipedia.org/wiki/Intracluster_medium) is heated up to high temperatures ($T \sim 10^7 - 10^8$ K) due to gravitational collapse. In addition, outflows powered by supermassive black holes in the center of clusters can also heat the gas. The hot ICM emits mostly at X-ray wavelengths due to radiation from thermal [bremsstrahlung](https://en.wikipedia.org/wiki/Bremsstrahlung) produced in the highly ionized gas. Although the ICM is hot, cold/cool gas has sometimes been detected in and around clusters. The most frequently observed elements are hydrogen (Hα, Lyα) and metal absorption lines (MgII, OVI), which are detected in the spectra of background quasars.
 
@@ -74,7 +73,7 @@ Despite the hot ICM, our analysis shows a significant covering fraction ($3-5\%$
 
 Furthermore, I also investigated the connection between MgII absorbers and the member galaxies of the cluster. Cross-correlating MgII absorption with photo -z selected cluster member galaxies from DESI reveals a statistically significant connection. The median projected distance between MgII absorbers and the nearest cluster member is $\sim200$ kpc, compared to $\sim 500$ kpc in random mocks with the same galaxy density profiles. We do not find a correlation between MgII strength and the star formation rate of the closest cluster neighbor (See figure on the right). This suggests that cool gas in clusters, as traced by MgII absorption, is (i) associated with satellite galaxies, (ii) dominated by cold gas clouds in the intracluster medium rather than by the interstellar medium of galaxies, and (iii) may originate in part from gas stripped from these cluster satellites in the past.
 
-#### **Understanding the large and small-scale clustering of metal absorbers in the universe**
+**Understanding the large and small-scale clustering of metal absorbers in the universe**
 
 Currently, I am also looking into the small and large scale [clustering properties]([https://en.wikipedia.org/wiki/Quasar](https://en.wikipedia.org/wiki/Correlation_function_(astronomy))) of cool and warm (traced by MgII and CIV absorbers in the spectra of [quasar](https://en.wikipedia.org/wiki/Quasar)) in the Universe <span style="color:blue">(Anand+ in prep.)</span>. The scales at which these absorbers show excess clustering against the random background can trace large-scale structures in the universe. Previous studies limited by small sample sizes suffer from large uncertainties on those scales, which can reduced by orders of magnitude with our large sample of absorbers. Since the physical origin of cool and warm gas in the universe is significantly different, those differences would be visible on the clustering amplitudes. I also plan to put constraints on the gas fraction (Omegas) for these metals in our universe at different epochs.
 </details>
