@@ -80,7 +80,7 @@ Currently, I am also looking into the small and large scale [clustering properti
 
 ## **<u>Data science methods</u>**
 
-### **Automated pipelines for absorption detection in spectra**
+### **Automated pipelines for absorption detection in astronomical spectra**
 
 In [(Anand et al. 2021)](https://arxiv.org/abs/2103.15842), I used the largest quasar catalog from the [SDSS Data Release 16 (DR16)](https://www.sdss.org/dr16/) to search for MgII absorbers in their spectra. Given the large dataset (~ 1 million quasar spectra), I designed a novel automated pipeline to model the quasar continuum and search for MgII doublets in their spectra.
 
@@ -95,7 +95,7 @@ The pipeline uses a dimensional reduction technique called [Non-negative matrix 
 
 With the advent of ongoing large spectroscopic surveys, it has increasingly become important to analyze large numbers of astronomical spectra and measure their redshifts. As we move towards precision cosmology, getting precise redshift measurements of galaxies and quasars is extremely important for all cosmological surveys. In recent years, surveys like DESI have started taking unprecedented amounts of astronomical spectra to perform a next-generation cosmological analysis. Measuring their precise redshifts is one of the outstanding challenges we face. It is impossible to inspect millions of spectra and get the best redshift visually; therefore, we have to rely on dimensional reduction techniques and model the spectra of those objects. One of the extensively used approaches is the principal component analysis (PCA), which reduces a large set of features into their principal components (orthogonal eigenvectors) and constructs them with a linear combination of these features. PCA is exceptionally computationally efficient and fast; however, it suffers from the fact that it does not use any physical features of those astronomical objects. This often results in unphysical modeling or overfitting of the input spectra.
 
-#### **Archetype-based redshift estimation for Dark Energy Survey Instrument**
+**Archetype-based redshift estimation for Dark Energy Survey Instrument**
 
 In my recent work [Anand et al. 2024](https://arxiv.org/abs/2405.19288), I worked on a computationally efficient galaxy archetype-based redshift estimation and spectral classification method (see figure below) for the Dark Energy Survey Instrument (DESI) survey. Our proposed approach improves upon this existing method by refitting the spectra with carefully generated physical galaxy archetypes combined with additional terms designed to absorb data reduction defects and provide more physical models to the DESI spectra. We test our method on an extensive dataset derived from the survey validation (SV) and Year 1 (Y1) data of DESI. Our findings indicate that the new method delivers marginally better redshift success for SV tiles while reducing catastrophic redshift failure by 10−30%. At the same time, results from millions of targets from the main survey show that our model has relatively higher redshift success and purity rates (0.5−0.8% higher) for galaxy targets while having similar success for QSOs. These improvements also demonstrate that the main DESI redshift pipeline is generally robust. Additionally, it reduces the false positive redshift estimation by 5−40% for sky fibers.
 
