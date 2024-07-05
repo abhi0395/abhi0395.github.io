@@ -13,7 +13,7 @@ header:
 # Overview
 <figure>
 <p style="text-align: center;">
-<figcaption>Gas flows in the CGM (simulation from Lochhaas et al. 2021, left and Peeples et al. 2015, right).</figcaption>
+<figcaption>Gas flows in the CGM (simulation from Lochhaas et al. 2021, left and Peeples et al. 2015, right).</figcaption></p>
 </p>
 <p float="left">
   <img src="/images/cgm/cgm_flows.jpg" style="width:50%; border:1;">
@@ -45,7 +45,7 @@ In [(Anand et al. 2021)](https://arxiv.org/abs/2103.15842), I used the largest q
 <p float="center">
   <img src="/images/mgii_work/spec.png" style="width:80%; border:1; display:block”">
   <p style="text-align: center;">
-  <figcaption>Quasar spectra (black) with NMF continuum (red) and detected MgII absorbers (Anand et al. 2021)</figcaption>
+  <figcaption>Quasar spectra (black) with NMF continuum (red) and detected MgII absorbers (Anand et al. 2021)</figcaption></p>
 </p>
 
 The pipeline uses a dimensional reduction technique called [Non-negative matrix factorization (NMF)](https://en.wikipedia.org/wiki/Non-negative_matrix_factorization), which reduces the quasar intrinsic emission features into eigenvalues and eigenspectra to model the quasar continuum. I developed an automated absorber detection pipeline using a matched kernel convolution technique and adaptive S/N criteria. The pipeline can run parallelly on several quasars simultaneously to reduce the absorber search time. The detection algorithm was run on all quasars from SDSS DR16 and compiled the largest [MgII / FeII catalog](https://wwwmpa.mpa-garching.mpg.de/SDSS/MgII/) available to date, which included ~160,000 systems. The figure on the right shows one example spectrum with normalized flux (black) and NMF continuum (red), along with two MgII absorbers that our pipeline detects.
@@ -53,7 +53,7 @@ The pipeline uses a dimensional reduction technique called [Non-negative matrix 
 <p float="center">
   <img src="/images/mgii_work/mgii_covering_fraction.png" style="width:90%; border:1; display:block”">
   <p style="text-align: center;">
-  <figcaption>Left: MgII covering fraction in the CGM of star-forming (blue) and passive galaxies (red). Right: MgII covering fraction within galactic halo as a function of star formation rate of galaxies. Both figures are from Anand et al. 2021</figcaption>
+  <figcaption>Left: MgII covering fraction in the CGM of star-forming (blue) and passive galaxies (red). Right: MgII covering fraction within galactic halo as a function of star formation rate of galaxies. Both figures are from Anand et al. 2021</figcaption></p>
 </p>
 
 In the same work, I also connected MgII absorbers with CGM of [emission-line galaxies (ELGs or star-forming)](https://www.usm.uni-muenchen.de/people/saglia/praktikum/galspectra/node4.html) and [luminous red galaxies (LRGs or passive)](https://classic.sdss.org/dr2/products/general/edr_html/node53.html) from the SDSS DR16 to characterize the properties of cold gas in their CGM. With a very robust statistical analysis, our study implied that cool circumgalactic gas has a different physical origin for star-forming versus quiescent galaxies. We find that both MgII absorption and its covering fraction are 2 - 5 times higher in the CGM of ELGs than LRGs within ~ 50 kpc from the galaxy. Also, there is a very sharp decline in the covering fraction for both kinds of galaxies, and at large distances, they are within the error bars (see left Figure). The rapid decline in the covering fraction at ~ 50 kpc implies that MgII properties are regulated by galactic outflows in the inner part of CGM, while it is tightly linked with the dark matter halo in outer regions.
@@ -70,7 +70,7 @@ The absorber-cluster cross-correlation study using our MgII absorber catalog and
   <img src="/images/cluster_work/mgii_surf_dens.png" style="width:45%; border:1; display:block”">
   <img src="/images/cluster_work/ew_vs_sfr.png" style="width:45%; border:1; display:block”">
   <p style="text-align: center;">
-  <figcaption>Left: MgII surface density around galaxy clusters. Right: Equivalent width as a function of star formation rate of cluster galaxies. Both figures are from Anand et al. 2021</figcaption>
+  <figcaption>Left: MgII surface density around galaxy clusters. Right: Equivalent width as a function of star formation rate of cluster galaxies. Both figures are from Anand et al. 2021</figcaption></p>
 </p>
 
 Despite the hot ICM, our analysis shows a significant covering fraction ($3-5\%$) of cold gas ($T \sim 10^4$, traced by MgII absorbers) in cluster environments on virial scales. On the other hand, the surface mass density (see Figure on left) of MgII absorbers is $2-3$ times higher in clusters than luminous red galaxies (LRGs). However, the surface mass density is $5-10$ lower than emission-line galaxies (ELGs). While the covering fraction of cool gas in clusters decreases with increasing mass of the central galaxy, the total MgII mass within $r_{500}$ is nonetheless $\sim 10$ times higher than for SDSS LRGs. The MgII covering fraction/surface mass density versus impact parameter is well described by a power law in the inner regions and an exponential function at larger distances. The characteristic scale of the transition between these two regimes is smaller for large [equivalent width](https://en.wikipedia.org/wiki/Equivalent_width) absorbers ($EW > 1Å$), implying different origin of weak and strong absorbers in dense environments.
@@ -90,9 +90,8 @@ With the advent of ongoing large spectroscopic surveys, it has increasingly beco
 
 In my recent work [Anand et al. 2024](https://arxiv.org/abs/2405.19288), I worked on a computationally efficient galaxy archetype-based redshift estimation and spectral classification method (see figure below) for the Dark Energy Survey Instrument (DESI) survey. Our proposed approach improves upon this existing method by refitting the spectra with carefully generated physical galaxy archetypes combined with additional terms designed to absorb data reduction defects and provide more physical models to the DESI spectra. We test our method on an extensive dataset derived from the survey validation (SV) and Year 1 (Y1) data of DESI. Our findings indicate that the new method delivers marginally better redshift success for SV tiles while reducing catastrophic redshift failure by 10−30%. At the same time, results from millions of targets from the main survey show that our model has relatively higher redshift success and purity rates (0.5−0.8% higher) for galaxy targets while having similar success for QSOs. These improvements also demonstrate that the main DESI redshift pipeline is generally robust. Additionally, it reduces the false positive redshift estimation by 5−40% for sky fibers.
 
-<p float="center">
+<p float="center;" style="text-align: center;">
   <img src="/images/archetype_work/algorithm.png" style="width:80%; border:1; display:block”">
-  <p style="text-align: center;">
   <figcaption>A schematic of our archetype based per camera polynomial fitting (Anand et al. 2024)</figcaption>
 </p>
 
