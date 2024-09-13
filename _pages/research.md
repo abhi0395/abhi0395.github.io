@@ -89,7 +89,11 @@ In [(Anand et al. 2021)](https://arxiv.org/abs/2103.15842), I used the largest q
   <figcaption>Quasar spectra (black) with NMF continuum (red) and detected MgII absorbers (Anand et al. 2021)</figcaption>
 </p>
 
-The pipeline uses a dimensional reduction technique called [Non-negative matrix factorization (NMF)](https://en.wikipedia.org/wiki/Non-negative_matrix_factorization), which reduces the quasar intrinsic emission features into eigenvalues and eigenspectra to model the quasar continuum. I developed an automated absorber detection pipeline using a matched kernel convolution technique and adaptive S/N criteria. The pipeline can run parallelly on several quasars simultaneously to reduce the absorber search time. The detection algorithm was run on all quasars from SDSS DR16 and compiled the largest [MgII / FeII catalog](https://wwwmpa.mpa-garching.mpg.de/SDSS/MgII/) available to date, which included ~160,000 systems. The figure on the right shows one example spectrum with normalized flux (black) and NMF continuum (red), along with two MgII absorbers that our pipeline detects.
+The pipeline uses a dimensional reduction technique called [Non-negative matrix factorization (NMF)](https://en.wikipedia.org/wiki/Non-negative_matrix_factorization), which reduces the quasar intrinsic emission features into eigenvalues and eigenspectra to model the quasar continuum. 
+
+I have also developed an automated metal absorber detection pipeline,[qsoabsfind](https://github.com/abhi0395/qsoabsfind) using a matched kernel convolution technique and adaptive S/N criteria. It is very generic in nature and can be used to detect doublet profiles. The pipeline is highly efficient and optimized to run parallelly on hundreds of quasars. It takes less than a few minutes to search for absorbers on thousands of quasars. Additionally, it can be used to simulate mock absorber catalog for N-dimensional correlation analyses.
+
+The detection algorithm (pipeline) was initially run on all quasars from SDSS DR16 and compiled the largest [MgII / FeII catalog](https://wwwmpa.mpa-garching.mpg.de/SDSS/MgII/) available to date, which included ~160,000 systems. The figure on the right shows one example spectrum with normalized flux (black) and NMF continuum (red), along with two MgII absorbers that our pipeline detects.
 
 ### **<u>New methods of galaxy spectral fitting for redshift estimation</u>**
 
