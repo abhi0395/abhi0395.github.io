@@ -26,6 +26,6 @@ If you're an undergrad looking for short-term projects, have a look at my [resea
 
 If you're interested in knowing my work or you're a prospective graduate or postdoc applicant and need suggestions/feedback, feel free to get in touch with me.
 
-Contact me at <span style="color:blue">AbhijeetAnand@lbl.gov</span>
+Contact me at <span style="color:blue">AbhijeetAnand[at]lbl.gov</span>
 
 I will be very happy to talk to you!
