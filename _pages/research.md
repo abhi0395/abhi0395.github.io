@@ -94,7 +94,7 @@ Our analysis revealed that the abundance of triply ionized carbon increased by a
 
 Currently, I am using a combination of quasars and intermediate-redshift $z\sim 1.5$ galaxies to study absorption produced by cool and warm gas, traced by Mg II and C IV absorbers, respectively. To enable this, I am developing a stacking-based method to detect faint absorption signals in quasar spectra using data from the DESI experiment <span style="color:blue">(Anand+ in prep.)</span>. Previously, the lack of a sufficiently large galaxy sample at this key redshift made such a study unfeasible. This work will help fill that gap and provide new insights into the multiphase circumgalactic medium around star-forming galaxies at cosmic noon.
 
-**<u>5. A comprehensive analysis of metal mass densities in the Universe with large surveys**
+**<u>5. A comprehensive analysis of metal mass densities in the Universe with large surveys</u>**
 
 In another ongoing work (<span style="color:blue">(Anand+ in prep.)</span>) that I am leading, I am expanding the cosmic mass density analysis to several metal species. My goal is to present the most comprehensive analysis of the cosmic evolution of metal mass densities in the Universe from  \( z = 4.5 \) to \( z = 1.4 \) using large spectroscopic surveys. I will provide the tightest constraints on the metallicity in the IGM for the first time using survey data.
 
