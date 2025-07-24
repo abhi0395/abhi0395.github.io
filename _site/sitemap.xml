@@ -1,130 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
 <url>
-<loc>http://localhost:4002/portfolio/portfolio-1/</loc>
+  <loc>https://abhi0395.github.io/</loc>
+  <lastmod>2023-10-24T22:54:18+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-<loc>http://localhost:4002/portfolio/portfolio-2/</loc>
+  <loc>https://abhi0395.github.io/research/</loc>
+  <lastmod>2023-10-24T22:54:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4002/posts/2012/08/blog-post-1/</loc>
-<lastmod>2012-08-14T00:00:00-07:00</lastmod>
+  <loc>https://abhi0395.github.io/publications/</loc>
+  <lastmod>2023-10-24T22:54:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4002/posts/2013/08/blog-post-2/</loc>
-<lastmod>2013-08-14T00:00:00-07:00</lastmod>
+  <loc>https://abhi0395.github.io/cv/</loc>
+  <lastmod>2023-10-24T22:54:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4002/posts/2014/08/blog-post-3/</loc>
-<lastmod>2014-08-14T00:00:00-07:00</lastmod>
+  <loc>https://abhi0395.github.io/personal/</loc>
+  <lastmod>2023-10-24T22:54:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4002/posts/2012/08/blog-post-4/</loc>
-<lastmod>2015-08-14T00:00:00-07:00</lastmod>
+  <loc>https://abhi0395.github.io/sdssmgii/</loc>
+  <lastmod>2023-10-24T22:54:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4002/posts/2012/08/blog-post-4/</loc>
-<lastmod>2199-01-01T00:00:00-08:00</lastmod>
+  <loc>https://abhi0395.github.io/usefullinks/</loc>
+  <lastmod>2023-10-24T22:54:18+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
-<url>
-<loc>http://localhost:4002/talks/2012-03-01-talk-1</loc>
-<lastmod>2012-03-01T00:00:00-08:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4002/talks/2013-03-01-tutorial-1</loc>
-<lastmod>2013-03-01T00:00:00-08:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4002/talks/2014-02-01-talk-2</loc>
-<lastmod>2014-02-01T00:00:00-08:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4002/talks/2014-03-01-talk-3</loc>
-<lastmod>2014-03-01T00:00:00-08:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4002/teaching/2014-spring-teaching-1</loc>
-<lastmod>2014-01-01T00:00:00-08:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4002/teaching/2015-spring-teaching-1</loc>
-<lastmod>2015-01-01T00:00:00-08:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4002/</loc>
-</url>
-<url>
-<loc>http://localhost:4002/archive-layout-with-content/</loc>
-</url>
-<url>
-<loc>http://localhost:4002/categories/</loc>
-</url>
-<url>
-<loc>http://localhost:4002/collection-archive/</loc>
-</url>
-<url>
-<loc>http://localhost:4002/cv/</loc>
-</url>
-<url>
-<loc>http://localhost:4002/pages/detailabout</loc>
-</url>
-<url>
-<loc>http://localhost:4002/markdown/</loc>
-</url>
-<url>
-<loc>http://localhost:4002/non-menu-page/</loc>
-</url>
-<url>
-<loc>http://localhost:4002/page-archive/</loc>
-</url>
-<url>
-<loc>http://localhost:4002/pages/pastprojects</loc>
-</url>
-<url>
-<loc>http://localhost:4002/personal/</loc>
-</url>
-<url>
-<loc>http://localhost:4002/portfolio/</loc>
-</url>
-<url>
-<loc>http://localhost:4002/publications/</loc>
-</url>
-<url>
-<loc>http://localhost:4002/research/</loc>
-</url>
-<url>
-<loc>http://localhost:4002/sdssmgii/</loc>
-</url>
-<url>
-<loc>http://localhost:4002/sitemap/</loc>
-</url>
-<url>
-<loc>http://localhost:4002/tags/</loc>
-</url>
-<url>
-<loc>http://localhost:4002/talkmap.html</loc>
-</url>
-<url>
-<loc>http://localhost:4002/talks/</loc>
-</url>
-<url>
-<loc>http://localhost:4002/teaching/</loc>
-</url>
-<url>
-<loc>http://localhost:4002/terms/</loc>
-</url>
-<url>
-<loc>http://localhost:4002/usefullinks/</loc>
-</url>
-<url>
-<loc>http://localhost:4002/markdown_generator/</loc>
-</url>
-<url>
-<loc>http://localhost:4002/google3b03fc323252c280.html</loc>
-<lastmod>2023-10-24T15:28:34-07:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4002/talkmap/map.html</loc>
-<lastmod>2023-10-04T22:42:12-07:00</lastmod>
-</url>
+
 </urlset>

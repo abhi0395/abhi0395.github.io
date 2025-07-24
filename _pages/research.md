@@ -79,13 +79,24 @@ Furthermore, I also investigated the connection between MgII absorbers and the m
 
 **<u>3. Understanding the evolution of CIV absorbers in the universe using large cosmological surveys</u>**
 
-Recently, I led a project ([Anand et al. 2025](https://arxiv.org/abs/2504.20299)) to identify thousands of CIV absorber systems in the spectra of quasars observed by the Dark Energy Spectroscopic Instrument (DESI). Using a large sample of over 300,000 quasars, I constructed the most extensive C IV absorber catalog to date, comprising more than 100,000 systems. By measuring absorber properties such as redshift, equivalent width, and column density, I constrained the cosmic mass density of C IV absorbers and the metallicity traced by them in the intergalactic medium over the past $\sim 3$ billion years, spanning the redshift range $z = 4.5$ to $z = 1.4$.
+Recently, I led a project ([Anand et al. 2025](https://arxiv.org/abs/2504.20299)) to identify thousands of C IV absorber systems in quasar spectra from the Dark Energy Spectroscopic Instrument (DESI) survey. Using a large sample of over 300,000 quasars, we constructed the most extensive catalog of C IV absorbers to date—comprising more than 100,000 systems. By measuring the redshift, equivalent width, and column density of each absorber, we provided the tightest constraints yet on the cosmic mass density of C IV and the intergalactic metallicity it traces, over the redshift range \( z = 4.5 \) to \( z = 1.4 \) —spanning nearly 3 billion years of cosmic time.
 
-My analysis revealed that the abundance of triply ionized carbon has increased steadily by a factor of $\sim 3.5$ as the universe evolved. When comparing the evolution of C IV with that of He II photoheating (He II and C III have similar ionization potentials), we observe a similar redshift-dependent trend. This indicates that galaxies, stars, and quasars, which contribute to the cosmic ultraviolet background, play a key role in ionizing carbon to such high states. Our catalog will also serve as a valuable resource for future galaxy–absorber correlation studies at $\sim 1.5$, providing new insights into the nature and origin of warm-phase gas in galactic halos.
+<p float="left;" style="text-align: center;">
+  <img src="/images/civ_work/planck18_Omega_CIV_vs_redshift.png" style="width:45%; border:1; display:block”">
+  <img src="/images/civ_work/igm_metallicity.png" style="width:45%; border:1; display:block”">
+  <figcaption>Left: Cosmic Mass Density of C IV absorbers from DESI quasars, compared with previous studies.
+Right: Intergalactic Metallicity measured from DESI quasars. Both panels span ~3 billion years.</figcaption>
+</p>
+
+Our analysis revealed that the abundance of triply ionized carbon increased by a factor of ~3.8 as the universe evolved. Interestingly, this redshift-dependent trend closely mirrors that of He II photoheating, hinting at a shared origin driven by galaxies and quasars that power the cosmic ultraviolet background (UVB). This work highlights the critical role of galaxies and AGN in ionizing carbon to high states** in the intergalactic medium (IGM). Our catalog will serve as a valuable resource for future studies of galaxy–absorber correlations, especially around \( z \sim 1.5 \)—a key epoch near cosmic noon—offering new insights into the warm-phase gas in galactic halos and the cosmic metal cycle.
 
 **<u>4. Multiphase Halo Gas of Star-Forming Galaxies at $z \sim 1.4$</u>**
 
 Currently, I am using a combination of quasars and intermediate-redshift $z\sim 1.5$ galaxies to study absorption produced by cool and warm gas, traced by Mg II and C IV absorbers, respectively. To enable this, I am developing a stacking-based method to detect faint absorption signals in quasar spectra using data from the DESI experiment <span style="color:blue">(Anand+ in prep.)</span>. Previously, the lack of a sufficiently large galaxy sample at this key redshift made such a study unfeasible. This work will help fill that gap and provide new insights into the multiphase circumgalactic medium around star-forming galaxies at cosmic noon.
+
+**<u>5. A comprehensive analysis of metal mass densities in the Universe with large surveys**
+
+In another ongoing work (<span style="color:blue">(Anand+ in prep.)</span>) that I am leading, I am expanding the cosmic mass density analysis to several metal species. My goal is to present the most comprehensive analysis of the cosmic evolution of metal mass densities in the Universe from  \( z = 4.5 \) to \( z = 1.4 \) using large spectroscopic surveys. I will provide the tightest constraints on the metallicity in the IGM for the first time using survey data.
 
 ## **<u>Data science methods</u>**
 
@@ -114,7 +125,6 @@ Given the extensive volume of data, manually inspecting millions of spectra to d
   <img src="/images/archetype_work/algorithm.png" style="width:80%; border:1; display:block”">
   <figcaption>A schematic of our archetype based per-camera polynomial fitting (Anand et al. 2024)</figcaption>
 </p>
-
 
 In my recent work [Anand et al. 2024](https://arxiv.org/abs/2405.19288), I developed a computationally efficient galaxy archetype-based redshift estimation and spectral classification method (see figure above) for the Dark Energy Survey Instrument (DESI) survey. Our proposed approach improves upon this existing method by refitting the spectra with carefully generated physical galaxy archetypes combined with additional terms designed to absorb data reduction defects and provide more physical models to the DESI spectra. We test our method on an extensive dataset derived from the survey validation (SV) and Year 1 (Y1) data of DESI. Our findings indicate that the new method delivers better redshift success rates for them while reducing catastrophic redshift failure by 10−30%. At the same time, results from millions of targets from the main survey show that our model has relatively higher redshift success and purity rates (0.5−0.8% higher) for galaxy targets while having similar success for QSOs.
 
