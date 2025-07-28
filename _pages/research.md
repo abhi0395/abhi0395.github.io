@@ -12,7 +12,7 @@ header:
 
 # **Overview**
 
-Broadly speaking, there are two main themes of my research:
+Broadly speaking, there are three main themes of my research:
 
   * **[Galaxy formation and evolution:](#galaxy-formation-and-evolution)** I study how galaxies form and evolve using observational tools. Understanding the physical processes that form the galaxies and set their evolution has been one of the central problems in astronomy. With the advent of advancements in computer simulations combined with powerful telescopes, we have slowly started to uncover the hidden mysteries of our vast universe. Recent large-scale cosmological simulations have revealed that the galaxies are surrounded by a diffuse gaseous halo, known as the [circumgalactic medium (CGM)](https://www.annualreviews.org/doi/10.1146/annurev-astro-091916-055240). Understanding the interplay between different gas flows (outflows and inflows, also known as the cosmic baryon cycle) in this invisible medium is the key to a clear and accurate picture of the fate of galaxies. In a broader sense, I want to understand the -
     * Physical processes that govern the formation and evolution of galaxies and their environment.
@@ -23,8 +23,9 @@ Broadly speaking, there are two main themes of my research:
 
   * **[Machine Learning and Data Science Methods:](#machine-learning-and-data-science-methods)** Astronomy is an observational science that relies on extensive data gathered from telescopes worldwide to study celestial objects. Analyzing these vast amounts of data requires a wide array of methods and techniques to extract scientific insights. I am deeply interested to developing and learning new data analysis tools and incorporating them into my research. I utilize classical machine learning and statistics-based methods to create efficient algorithms for modeling astronomical spectra and measuring their physical properties. I am a regular developer or contributor to several GitHub codebases -
     * [qsoabsfind](https://github.com/abhi0395/qsoabsfind): Absorption feature finder in astronomical spectra (_Developer_)
-    * [redrock](https://github.com/desihub/redrock): Spectral fitting module for DESI (making largest 3D map of the universe) (_Contributor_)
-    * [desihub](https://github.com/desihub/): Public code associated with the [Dark Energy Spectroscopic Instrument (DESI)](https://en.wikipedia.org/wiki/Dark_Energy_Spectroscopic_Instrument) (_Member_)
+    * [redrock](https://github.com/desihub/redrock): Redshift fitter for DESI (making largest 3D map of the universe) (_Contributor_)
+    * [desispec](https://github.com/desihub/desispec): Spectral reduction and extraction codebase for DESI  (_Contributor_)
+    * [desihub](https://github.com/desihub/): Public codebase associated with the [Dark Energy Spectroscopic Instrument (DESI)](https://en.wikipedia.org/wiki/Dark_Energy_Spectroscopic_Instrument) (_Member_ & Contributor)
 
 ## **<u>Galaxy formation and evolution</u>**
 
@@ -83,20 +84,20 @@ Furthermore, I also investigated the connection between MgII absorbers and the m
 
 Currently, I am using a combination of quasars and intermediate-redshift $z\sim 1.5$ galaxies to study absorption produced by cool and warm gas, traced by Mg II and C IV absorbers, respectively. To enable this, I am developing a stacking-based method to detect faint absorption signals in quasar spectra using data from the DESI experiment <span style="color:blue">(Anand+ in prep.)</span>. Previously, the lack of a sufficiently large galaxy sample at this key redshift made such a study unfeasible. This work will help fill that gap and provide new insights into the multiphase circumgalactic medium around star-forming galaxies at cosmic noon.
 
-### **<u>Cosmic Metal Evolution with Large Spectroscopic Surveys</u>**
+## **<u>Cosmic Metal Evolution with Large Spectroscopic Surveys</u>**
 
 **<u>1. Understanding the evolution of CIV absorbers in the universe using large cosmological surveys</u>**
 
 Recently, I led a project ([Anand et al. 2025](https://arxiv.org/abs/2504.20299)) to identify thousands of C IV absorber systems in quasar spectra from the Dark Energy Spectroscopic Instrument (DESI) survey. Using a large sample of over 300,000 quasars, we constructed the most extensive catalog of C IV absorbers to date—comprising more than 100,000 systems. By measuring the redshift, equivalent width, and column density of each absorber, we provided the tightest constraints yet on the cosmic mass density of C IV and the intergalactic metallicity it traces, over the redshift range $ z = 4.5 $ to $z = 1.4 $ —spanning nearly 3 billion years of cosmic time.
 
-<p float="left;" style="text-align: center;">
+<p float="center;" style="text-align: center;">
   <img src="/images/civ_work/planck18_Omega_CIV_vs_redshift.png" style="width:45%; border:1; display:block”">
   <img src="/images/civ_work/igm_metallicity.png" style="width:45%; border:1; display:block”">
   <figcaption>Left: Cosmic Mass Density of C IV absorbers from DESI quasars, compared with previous studies.
 Right: Intergalactic Metallicity measured from DESI quasars. Both panels span ~3 billion years.</figcaption>
 </p>
 
-Our analysis revealed that the abundance of triply ionized carbon increased by a factor of $\sim 3.8$ as the universe evolved. Interestingly, this redshift-dependent trend closely mirrors that of He II photoheating, hinting at a shared origin driven by galaxies and quasars that power the cosmic ultraviolet background (UVB). This work highlights the critical role of galaxies and AGN in ionizing carbon to high states** in the intergalactic medium (IGM). Our catalog will serve as a valuable resource for future studies of galaxy–absorber correlations, especially around $z \sim 1.5 $ —a key epoch near cosmic noon—offering new insights into the warm-phase gas in galactic halos and the cosmic metal cycle.
+Our analysis revealed that the abundance of triply ionized carbon increased by a factor of $\sim 3.8$ as the universe evolved. Interestingly, this redshift-dependent trend closely mirrors that of He II photoheating, hinting at a shared origin driven by galaxies and quasars that power the cosmic ultraviolet background (UVB). This work highlights the critical role of galaxies and AGN in ionizing carbon to high states in the intergalactic medium (IGM). Our catalog will serve as a valuable resource for future studies of galaxy–absorber correlations, especially around $z \sim 1.5 $ —a key epoch near cosmic noon—offering new insights into the warm-phase gas in galactic halos and the cosmic metal cycle.
 
 **<u>2. A comprehensive analysis of metal mass densities in the Universe</u>**
 
