@@ -19,7 +19,9 @@ Broadly speaking, there are two main themes of my research:
     * the complex nature of the gas flows in the CGM and how they depend on and impact the galaxy properties and its environment.
     * Nature and evolution of metals in the universe using absorption line studies.
 
-  * **[Data science methods:](#data-science-methods)** Astronomy is an observational science that relies on extensive data gathered from telescopes worldwide to study celestial objects. Analyzing these vast amounts of data requires a wide array of methods and techniques to extract scientific insights. I am deeply interested to developing and learning new data analysis tools and incorporating them into my research. I utilize classical machine learning and statistics-based methods to create efficient algorithms for modeling astronomical spectra and measuring their physical properties. I am a regular developer or contributor to several GitHub codebases -
+  * **[Cosmic Metal Evolution with Large Spectroscopic Surveys:](#cosmic-metal-evolution-with-large-spectroscopic-surveys)** Metals—elements heavier than helium—are forged in stars and dispersed into the universe through energetic processes such as supernovae and galactic winds. Tracing their abundance and distribution over cosmic time provides critical insight into galaxy formation, feedback processes, and the chemical enrichment history of the universe. My research focuses on measuring how metal mass densities evolve by analyzing absorption features in the spectra of distant quasars, using data from some of the largest spectroscopic surveys to date.
+
+  * **[Machine Learning and Data Science Methods:](#machine-learning-and-data-science-projects)** Astronomy is an observational science that relies on extensive data gathered from telescopes worldwide to study celestial objects. Analyzing these vast amounts of data requires a wide array of methods and techniques to extract scientific insights. I am deeply interested to developing and learning new data analysis tools and incorporating them into my research. I utilize classical machine learning and statistics-based methods to create efficient algorithms for modeling astronomical spectra and measuring their physical properties. I am a regular developer or contributor to several GitHub codebases -
     * [qsoabsfind](https://github.com/abhi0395/qsoabsfind): Absorption feature finder in astronomical spectra (_Developer_)
     * [redrock](https://github.com/desihub/redrock): Spectral fitting module for DESI (making largest 3D map of the universe) (_Contributor_)
     * [desihub](https://github.com/desihub/): Public code associated with the [Dark Energy Spectroscopic Instrument (DESI)](https://en.wikipedia.org/wiki/Dark_Energy_Spectroscopic_Instrument) (_Member_)
@@ -85,7 +87,7 @@ Currently, I am using a combination of quasars and intermediate-redshift $z\sim 
 
 **<u>1. Understanding the evolution of CIV absorbers in the universe using large cosmological surveys</u>**
 
-Recently, I led a project ([Anand et al. 2025](https://arxiv.org/abs/2504.20299)) to identify thousands of C IV absorber systems in quasar spectra from the Dark Energy Spectroscopic Instrument (DESI) survey. Using a large sample of over 300,000 quasars, we constructed the most extensive catalog of C IV absorbers to date—comprising more than 100,000 systems. By measuring the redshift, equivalent width, and column density of each absorber, we provided the tightest constraints yet on the cosmic mass density of C IV and the intergalactic metallicity it traces, over the redshift range \( z = 4.5 \) to \( z = 1.4 \) —spanning nearly 3 billion years of cosmic time.
+Recently, I led a project ([Anand et al. 2025](https://arxiv.org/abs/2504.20299)) to identify thousands of C IV absorber systems in quasar spectra from the Dark Energy Spectroscopic Instrument (DESI) survey. Using a large sample of over 300,000 quasars, we constructed the most extensive catalog of C IV absorbers to date—comprising more than 100,000 systems. By measuring the redshift, equivalent width, and column density of each absorber, we provided the tightest constraints yet on the cosmic mass density of C IV and the intergalactic metallicity it traces, over the redshift range $ z = 4.5 $ to $z = 1.4 $ —spanning nearly 3 billion years of cosmic time.
 
 <p float="left;" style="text-align: center;">
   <img src="/images/civ_work/planck18_Omega_CIV_vs_redshift.png" style="width:45%; border:1; display:block”">
@@ -94,13 +96,13 @@ Recently, I led a project ([Anand et al. 2025](https://arxiv.org/abs/2504.20299)
 Right: Intergalactic Metallicity measured from DESI quasars. Both panels span ~3 billion years.</figcaption>
 </p>
 
-Our analysis revealed that the abundance of triply ionized carbon increased by a factor of ~3.8 as the universe evolved. Interestingly, this redshift-dependent trend closely mirrors that of He II photoheating, hinting at a shared origin driven by galaxies and quasars that power the cosmic ultraviolet background (UVB). This work highlights the critical role of galaxies and AGN in ionizing carbon to high states** in the intergalactic medium (IGM). Our catalog will serve as a valuable resource for future studies of galaxy–absorber correlations, especially around \( z \sim 1.5 \)—a key epoch near cosmic noon—offering new insights into the warm-phase gas in galactic halos and the cosmic metal cycle.
+Our analysis revealed that the abundance of triply ionized carbon increased by a factor of $\sim 3.8$ as the universe evolved. Interestingly, this redshift-dependent trend closely mirrors that of He II photoheating, hinting at a shared origin driven by galaxies and quasars that power the cosmic ultraviolet background (UVB). This work highlights the critical role of galaxies and AGN in ionizing carbon to high states** in the intergalactic medium (IGM). Our catalog will serve as a valuable resource for future studies of galaxy–absorber correlations, especially around $z \sim 1.5 $ —a key epoch near cosmic noon—offering new insights into the warm-phase gas in galactic halos and the cosmic metal cycle.
 
 **<u>2. A comprehensive analysis of metal mass densities in the Universe</u>**
 
 In another ongoing work <span style="color:blue">(Anand+ in prep.)</span> that I am leading, I am expanding the cosmic mass density analysis to several metal species. My goal is to present the most comprehensive analysis of the cosmic evolution of metal mass densities in the Universe from  \( z = 4.5 \) to \( z = 1.4 \) using large spectroscopic surveys. I will provide the tightest constraints on the metallicity in the IGM for the first time using survey data.
 
-## **<u>Machine Learning and Data Science Projects</u>**
+## **<u>Machine Learning and Data Science Methods</u>**
 
 ### **<u>1. nmfqsofit: NMF-based Quasar Continuum Fitter</u>**
 
@@ -111,7 +113,7 @@ Modeling quasar continua is an important challenge in quasar absorption line ana
   <figcaption>Quasar spectra (black) with NMF continuum (red) and detected MgII absorbers (Anand et al. 2021)</figcaption>
 </p>
 
-The pipeline employs a dimensional reduction technique known as [Non-negative Matrix Factorization (NMF)](https://en.wikipedia.org/wiki/Non-negative_matrix_factorization), which decomposes the quasar intrinsic emission features into eigenvalues and eigenspectra to model the quasar continuum. I built high-fidelity NMF eigenbasis vectors using SDSS DR16 quasars that can be used to construct continua for any SDSS-like quasar spectra (e.g., DESI, WEAVE). It has been tested and validated on ~1 million quasars from SDSS DR16 and ~0.5 million quasars from DESI. See the red curve in the figure above.
+The pipeline employs a dimensional reduction technique known as [Non-negative Matrix Factorization (NMF)](https://en.wikipedia.org/wiki/Non-negative_matrix_factorization), which decomposes the quasar intrinsic emission features into eigenvalues and eigenspectra to model the quasar continuum. I built high-fidelity NMF eigenbasis vectors using SDSS DR16 quasars that can be used to construct continua for any SDSS-like quasar spectra (e.g., DESI, WEAVE). It has been tested and validated on $\sim 1$ million quasars from SDSS DR16 and $ \sim 0.5$ million quasars from DESI. See the red curve in the figure above.
 
 ### **<u>2. qsoabsfind: A Python Package for Detecting Absorption Line Doublets in Low-Resolution Quasar Spectra</u>**
 
