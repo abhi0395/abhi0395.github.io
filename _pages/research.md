@@ -40,7 +40,7 @@ In simple terms, the ["cosmic baryon cycle"](https://arxiv.org/abs/2011.01935) i
 </p>
 </figure>
 
-### **Multiphase Circumgalactic Medium in Observations**
+### **<u>Multiphase Circumgalactic Gas Around Galaxies and Clusters in Observations</u>**
 
 As described above, the CGM plays a pivotal role in galaxy formation, but it is very challenging to study it observationally. The CGM is very diffuse (having low densities, $n\sim 10^{-3} \,cm^{-3}$, for comparison, air density on earth is about $10^{19} \,cm^{-3}$) and the temperature can range from $\sim 10^4\, K$ to $10^7\, K$, therefore it is exceedingly hard to observe in emission as emission flux is directly proportional to the gas density. However, with the advent of groundbreaking space and ground-based telescopes, it can be studied in absorption against a bright background object.
 
@@ -50,7 +50,7 @@ The different absorption lines can trace [different phases](/images/cgm//absorbe
 
 Below are some of my works in this field.
 
-**<u>1. The cool circumgalactic medium of galaxies</u>**
+**<u>1. Characterizing cool circumgalactic medium of galaxies</u>**
 
 In [(Anand et al. 2021)](https://arxiv.org/abs/2103.15842), I connected MgII absorbers with CGM of [emission-line galaxies (ELGs or star-forming)](https://www.usm.uni-muenchen.de/people/saglia/praktikum/galspectra/node4.html) and [luminous red galaxies (LRGs or passive)](https://classic.sdss.org/dr2/products/general/edr_html/node53.html) from the SDSS DR16 to characterize the properties of cold gas in their CGM. With a very robust statistical analysis, our study implied that cool circumgalactic gas has a different physical origin for star-forming versus quiescent galaxies. We find that both MgII absorption and its covering fraction are 2 - 5 times higher in the CGM of ELGs than LRGs within ~ 50 kpc from the galaxy. Also, there is a very sharp decline in the covering fraction for both kinds of galaxies, and at large distances, they are within the error bars (see the left Figure). The rapid decline in the covering fraction at ~ 50 kpc implies that MgII properties are regulated by galactic outflows in the inner part of the CGM. At the same time, it is tightly linked with the dark matter halo in outer regions.
 
@@ -61,7 +61,7 @@ In [(Anand et al. 2021)](https://arxiv.org/abs/2103.15842), I connected MgII abs
 
 We also find that the stellar activity of ELGs plays a very important role in enriching their CGM, where the MgII covering fraction correlates strongly with the star formation activity (SFR) of the galaxy (see right Figure). In addition, we also see that MgII is rarely detected in the massive halos. The relative line-of-sight (LOS) velocity analysis also supports an outflow origin of MgII gas in ELGs, where the velocity dispersion of the absorbing cloud relative to the halo is similar to the virial velocity of the dark matter halo. On the other hand, it is suppressed by 40-50 % in the LRGs, suggesting a different origin of MgII gas in their halo, possibly accretion or stripping from the neighboring halo. To summarize, our analysis, combined with previous studies, implied that cool circumgalactic gas has a different physical origin for star-forming versus quiescent galaxies.
 
-**<u>2. The cool metal gas in galaxy clusters</u>**
+**<u>2. Tracing cool metal gas in galaxy clusters</u>**
 
 In [Anand et al. 2022](https://arxiv.org/abs/2201.07811), I extended the MgII absorber study to galaxy clusters. In this high mass regime (see Figure on left), we have the potential to shed light on the role of the environment in shaping the CGM of galaxies. Cluster halo gas known as the [intracluster medium (ICM)](https://en.wikipedia.org/wiki/Intracluster_medium) is heated up to high temperatures ($T \sim 10^7 - 10^8$ K) due to gravitational collapse. In addition, outflows powered by supermassive black holes in the center of clusters can also heat the gas. The hot ICM emits mostly at X-ray wavelengths due to radiation from thermal [bremsstrahlung](https://en.wikipedia.org/wiki/Bremsstrahlung) produced in the highly ionized gas. Although the ICM is hot, cold/cool gas has sometimes been detected in and around clusters. The most frequently observed elements are hydrogen (Hα, Lyα) and metal absorption lines (MgII, OVI), which are detected in the spectra of background quasars.
 
@@ -77,7 +77,13 @@ Despite the hot ICM, our analysis shows a significant covering fraction ($3-5\%$
 
 Furthermore, I also investigated the connection between MgII absorbers and the member galaxies of the cluster. Cross-correlating MgII absorption with photo-z selected cluster member galaxies from DESI reveals a statistically significant connection. The median projected distance between MgII absorbers and the nearest cluster member is $\sim200$ kpc, compared to $\sim 500$ kpc in random mocks with the same galaxy density profiles. We do not find a correlation between MgII strength and the star formation rate of the closest cluster neighbor (See figure on the right). This suggests that cool gas in clusters, as traced by MgII absorption, is (i) associated with satellite galaxies, (ii) dominated by cold gas clouds in the intracluster medium rather than by the interstellar medium of galaxies, and (iii) may originate in part from gas stripped from these cluster satellites in the past.
 
-**<u>3. Understanding the evolution of CIV absorbers in the universe using large cosmological surveys</u>**
+**<u>3. Multiphase Halo Gas of Star-Forming Galaxies at $z \sim 1.5$</u>**
+
+Currently, I am using a combination of quasars and intermediate-redshift $z\sim 1.5$ galaxies to study absorption produced by cool and warm gas, traced by Mg II and C IV absorbers, respectively. To enable this, I am developing a stacking-based method to detect faint absorption signals in quasar spectra using data from the DESI experiment <span style="color:blue">(Anand+ in prep.)</span>. Previously, the lack of a sufficiently large galaxy sample at this key redshift made such a study unfeasible. This work will help fill that gap and provide new insights into the multiphase circumgalactic medium around star-forming galaxies at cosmic noon.
+
+### **<u>Cosmic Metal Evolution with Large Spectroscopic Surveys</u>**
+
+**<u>1. Understanding the evolution of CIV absorbers in the universe using large cosmological surveys</u>**
 
 Recently, I led a project ([Anand et al. 2025](https://arxiv.org/abs/2504.20299)) to identify thousands of C IV absorber systems in quasar spectra from the Dark Energy Spectroscopic Instrument (DESI) survey. Using a large sample of over 300,000 quasars, we constructed the most extensive catalog of C IV absorbers to date—comprising more than 100,000 systems. By measuring the redshift, equivalent width, and column density of each absorber, we provided the tightest constraints yet on the cosmic mass density of C IV and the intergalactic metallicity it traces, over the redshift range \( z = 4.5 \) to \( z = 1.4 \) —spanning nearly 3 billion years of cosmic time.
 
@@ -90,32 +96,42 @@ Right: Intergalactic Metallicity measured from DESI quasars. Both panels span ~3
 
 Our analysis revealed that the abundance of triply ionized carbon increased by a factor of ~3.8 as the universe evolved. Interestingly, this redshift-dependent trend closely mirrors that of He II photoheating, hinting at a shared origin driven by galaxies and quasars that power the cosmic ultraviolet background (UVB). This work highlights the critical role of galaxies and AGN in ionizing carbon to high states** in the intergalactic medium (IGM). Our catalog will serve as a valuable resource for future studies of galaxy–absorber correlations, especially around \( z \sim 1.5 \)—a key epoch near cosmic noon—offering new insights into the warm-phase gas in galactic halos and the cosmic metal cycle.
 
-**<u>4. Multiphase Halo Gas of Star-Forming Galaxies at $z \sim 1.4$</u>**
+**<u>2. A comprehensive analysis of metal mass densities in the Universe</u>**
 
-Currently, I am using a combination of quasars and intermediate-redshift $z\sim 1.5$ galaxies to study absorption produced by cool and warm gas, traced by Mg II and C IV absorbers, respectively. To enable this, I am developing a stacking-based method to detect faint absorption signals in quasar spectra using data from the DESI experiment <span style="color:blue">(Anand+ in prep.)</span>. Previously, the lack of a sufficiently large galaxy sample at this key redshift made such a study unfeasible. This work will help fill that gap and provide new insights into the multiphase circumgalactic medium around star-forming galaxies at cosmic noon.
+In another ongoing work <span style="color:blue">(Anand+ in prep.)</span> that I am leading, I am expanding the cosmic mass density analysis to several metal species. My goal is to present the most comprehensive analysis of the cosmic evolution of metal mass densities in the Universe from  \( z = 4.5 \) to \( z = 1.4 \) using large spectroscopic surveys. I will provide the tightest constraints on the metallicity in the IGM for the first time using survey data.
 
-**<u>5. A comprehensive analysis of metal mass densities in the Universe with large surveys</u>**
+## **<u>Machine Learning and Data Science Projects</u>**
 
-In another ongoing work (<span style="color:blue">(Anand+ in prep.)</span>) that I am leading, I am expanding the cosmic mass density analysis to several metal species. My goal is to present the most comprehensive analysis of the cosmic evolution of metal mass densities in the Universe from  \( z = 4.5 \) to \( z = 1.4 \) using large spectroscopic surveys. I will provide the tightest constraints on the metallicity in the IGM for the first time using survey data.
+### **<u>1. nmfqsofit: NMF-based Quasar Continuum Fitter</u>**
 
-## **<u>Data science methods</u>**
-
-### **<u>1. Automated pipelines for absorption detection in astronomical spectra</u>**
-
-In [(Anand et al. 2021)](https://arxiv.org/abs/2103.15842), I utilized the largest quasar catalog from the [SDSS Data Release 16 (DR16)](https://www.sdss.org/dr16/) to search for MgII absorbers in their spectra. To achieve this, I developed an automated pipeline that models the quasar continuum and detects Mg II doublets in the spectra. The pipeline is highly parallelized and optimized, enabling the processing of thousands of quasar spectra within minutes.
+Modeling quasar continua is an important challenge in quasar absorption line analysis. In [(Anand et al. 2021)](https://arxiv.org/abs/2103.15842), I developed an automated pipeline, [nmfqsofit](https://github.com/abhi0395/nmfqsofit), that models the intrinsic continuum of quasars detected in low-resolution spectroscopy. The pipeline is highly parallelized and optimized, enabling the processing of thousands of quasar spectra within minutes.
 
 <p float="center" style="text-align: center;">
-  <img src="/images/mgii_work/spec.png" style="width:80%; border:1; display:block”">
+  <img src="/images/mgii_work/spec.png" style="width:80%; border:1; display:block">
   <figcaption>Quasar spectra (black) with NMF continuum (red) and detected MgII absorbers (Anand et al. 2021)</figcaption>
 </p>
 
-The pipeline employs a dimensional reduction technique known as [Non-negative matrix factorization (NMF)](https://en.wikipedia.org/wiki/Non-negative_matrix_factorization), which decomposes the quasar intrinsic emission features into eigenvalues and eigenspectra to model the quasar continuum.
+The pipeline employs a dimensional reduction technique known as [Non-negative Matrix Factorization (NMF)](https://en.wikipedia.org/wiki/Non-negative_matrix_factorization), which decomposes the quasar intrinsic emission features into eigenvalues and eigenspectra to model the quasar continuum. I built high-fidelity NMF eigenbasis vectors using SDSS DR16 quasars that can be used to construct continua for any SDSS-like quasar spectra (e.g., DESI, WEAVE). It has been tested and validated on ~1 million quasars from SDSS DR16 and ~0.5 million quasars from DESI. See the red curve in the figure above.
 
-Additionally, I developed an automated metal absorber detection pipeline called, [qsoabsfind](https://github.com/abhi0395/qsoabsfind), which utilizes a matched kernel convolution technique combined with adaptive signal-to-noise (S/N) criteria. The pipeline is versatile and can be employed to detect doublet profiles (absorption with two lines) in various spectral datasets (such as SDSS and DESI). It is highly efficient, optimized for parallel processing on hundreds of quasars, and can identify absorbers in thousands of quasar spectra within minutes. Moreover, it can generate simulated mock absorber catalogs for N-dimensional correlation analyses.
+### **<u>2. qsoabsfind: A Python Package for Detecting Absorption Line Doublets in Low-Resolution Quasar Spectra</u>**
 
-Initially, the detection algorithm was applied to the entire quasar dataset from SDSS DR16, resulting in the compilation of the largest available [MgII / FeII catalog](https://wwwmpa.mpa-garching.mpg.de/SDSS/MgII/) available to date, which includes around 160,000 systems. The figure above illustrates a quasar spectrum with normalized flux (black), an NMF continuum fit (red), and detected Mg II absorbers, showcasing the pipeline's capabilities.
+[qsoabsfind](https://github.com/abhi0395/qsoabsfind/tree/main) is a robust and highly efficient Python-based pipeline designed to identify absorption line doublets in low-resolution quasar spectra such as those from SDSS and DESI. It employs a matched-kernel convolution algorithm combined with adaptive signal-to-noise criteria, enabling automated detection of metal absorbers in thousands of quasar spectra within minutes. The code is optimized for parallel processing and supports batch-mode analysis on HPC clusters or single-node setups.
 
-### **<u>2. New methods of galaxy spectral fitting for redshift estimation</u>**
+The pipeline is generic and flexible, capable of detecting a wide variety of doublet systems including **C IV, Mg II, Fe II, O VI, Si IV, Al III, and N V**. In addition to detection, the code offers built-in support for defining dynamical search parameters, wavelength windows, equivalent width measurements and estimating column densities using the apparent optical depth (AOD) method, making it suitable for a broad range of astrophysical studies involving intergalactic and circumgalactic gas.
+
+The `qsoabsfind` pipeline has been used in several large-scale absorption line surveys:
+
+- **Mg II and Fe II absorber catalog** from [SDSS DR16 quasars](https://wwwmpa.mpa-garching.mpg.de/SDSS/MgII/), comprising over 160,000 absorbers [(Anand et al. 2021)](https://arxiv.org/abs/2103.15842).
+- **C IV absorber catalog** from [DESI DR1 quasars](https://data.desi.lbl.gov/doc/releases/dr1/vac/civ-absorber/), consisting of over 33,000 systems [(Anand et al. 2025)](https://arxiv.org/abs/2504.20299), the largest C IV catalog to date.
+
+<p float="center" style="text-align: center;">
+  <img src="/images/civ_work/example_spec_with_absorber.png" style="width:80%; border:1; display:block">
+  <figcaption>Continuum normalized DESI DR1 Quasar spectra (blue) with two detected CIV absorbers (Anand et al. 2025), along with best-fit Gaussian parameters (red)</figcaption>
+</p>
+
+The pipeline’s modular design allows for easy extension to new spectral datasets and absorber species. It is actively maintained and documented on GitHub, and has already become an integral part of several ongoing DESI value-added catalog efforts.
+
+**<u>3. New methods of galaxy spectral fitting for redshift estimation</u>**
 
 With the advent of ongoing large spectroscopic surveys, analyzing vast numbers of astronomical spectra and accurately measuring their distances has become increasingly important. As we advance toward [precision cosmology](https://www.kavlifoundation.org/news/precision-cosmology), obtaining precise [redshift](https://en.wikipedia.org/wiki/Redshift) measurements of galaxies and quasars is crucial for all major cosmological surveys. Recent surveys, such as DESI, are collecting unprecedented volumes of astronomical spectra to perform next-generation cosmological analyses, making accurate redshift determination one of the key challenges we face.
 
