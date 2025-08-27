@@ -17,11 +17,13 @@ The pipeline is designed for high-performance analysis and can run in parallel o
 
 - Latest release: [v1.0.5](https://github.com/abhi0395/qsoabsfind/releases)  
 - Features: multi-ion support (Mg II and C IV), robust absorber selection, equivalent width measurements and error estimations.
+
 ---
 
 ## Mg II / Fe II Absorber Catalog
 Using a preliminary version of *qsoabsfind* (developed during my PhD), I processed all quasars from SDSS DR16 to build the largest [**Mg II / Fe II catalog**](https://www.mpa-garching.mpg.de/SDSS/MgII) to date, containing ~160,000 systems.  
-This catalog is widely used for CGM–absorber cross-correlation studies and large-scale structure analysis.  
+This catalog is widely used for CGM–absorber cross-correlation studies and large-scale structure analysis. 
+
 ---
 
 ## C IV Absorber Catalogs
@@ -41,8 +43,7 @@ This approach builds upon and extends the [redrock](https://github.com/desihub/r
 
 **Highlights:**
 - Refits spectra with physical galaxy archetypes + additional terms to absorb data-reduction defects.  
-- Improves **redshift success rates** and reduces catastrophic failures by 10–30% for galaxy targets.  
-- Yields higher redshift purity (0.5–0.8% increase) for millions of DESI main survey galaxies, while maintaining QSO performance.  
+- Improves redshift success rates and reduces catastrophic failures by 10–30% for galaxy targets.  
 - Addresses limitations of classic PCA models (e.g., unphysical modeling, overfitting).  
 - Generic method that can be extended to other large surveys like [WEAVE](https://www.ing.iac.es/astronomy/instruments/weave/weaveinst.html), [WAVES](https://wavesurvey.org/), and [PFS](https://pfs.ipmu.jp/)
 
