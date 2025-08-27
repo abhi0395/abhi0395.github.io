@@ -17,21 +17,19 @@ header:
 
 ## About me
 
-My name is **Abhijeet Anand** (Hindi: अभिजीत आनंद, pronounced as *UH-B-h-ee-J-EE-T aa-nun-d*).  
-I am currently a **Postdoctoral Scientist** at [Lawrence Berkeley National Laboratory](https://en.wikipedia.org/wiki/Lawrence_Berkeley_National_Laboratory), working with the [Dark Energy Spectroscopic Instrument (DESI)](https://www.desi.lbl.gov/) team.  
+My name is Abhijeet Anand (Hindi: अभिजीत आनंद, pronounced as *UH-B-h-ee-J-EE-T aa-nun-d*).  
+I am currently a Postdoctoral Scientist at [Lawrence Berkeley National Laboratory](https://en.wikipedia.org/wiki/Lawrence_Berkeley_National_Laboratory), working with the [Dark Energy Spectroscopic Instrument (DESI)](https://www.desi.lbl.gov/) team. I received my PhD in Astrophysics in July 2022 as an [IMPRS PhD Fellow](https://www.imprs-astro.mpg.de/content/student-class-2018-2021.html) at the [Max Planck Institute for Astrophysics (MPA)](https://www.mpa-garching.mpg.de/), with my degree awarded by the [Ludwig Maximilian University of Munich (LMU)](https://en.wikipedia.org/wiki/Ludwig_Maximilian_University_of_Munich). I later continued at MPA as a Bridge Postdoctoral Fellow before moving to Berkeley Lab. 
 
-I received my **PhD in Astrophysics** in July 2022 as an **IMPRS PhD Fellow** at the [Max Planck Institute for Astrophysics (MPA)](https://www.mpa-garching.mpg.de/), with my degree awarded by the [Ludwig Maximilian University of Munich (LMU)](https://en.wikipedia.org/wiki/Ludwig_Maximilian_University_of_Munich). I later continued at MPA as a **Bridge Postdoctoral Fellow** before moving to Berkeley Lab.  
-
-Earlier, I completed my **BS-MS in Physics** at the [Indian Institute of Science (IISc)](https://en.wikipedia.org/wiki/Indian_Institute_of_Science), [Bangalore](https://en.wikipedia.org/wiki/Bangalore), in July 2017. From September 2017 to July 2018, I worked as a **Junior Research Fellow (JRF)** at the [National Institute of Advanced Studies (NIAS)](https://en.wikipedia.org/wiki/National_Institute_of_Advanced_Studies), Bangalore.  
+Earlier, I completed my BS-MS in Physics at the [Indian Institute of Science (IISc)](https://en.wikipedia.org/wiki/Indian_Institute_of_Science), [Bangalore](https://en.wikipedia.org/wiki/Bangalore), in July 2017. From September 2017 to July 2018, I worked as a Junior Research Fellow (JRF) at the [National Institute of Advanced Studies (NIAS)](https://en.wikipedia.org/wiki/National_Institute_of_Advanced_Studies), Bangalore.  
 
 I am originally from [Patna](https://en.wikipedia.org/wiki/Patna), India. You can find more about me [here](/pages/detailabout).
 
 
 ## Looking for short projects or suggestions
 
-If you are an **undergraduate student** looking for short-term research projects, please take a look at my [research](/research). If you find something that interests you, feel free to reach out with your **interests, availability, and programming background**. I have a few projects in mind and would be happy to discuss them with you.  
+If you are an undergraduate student looking for short-term research projects, please take a look at my [research](/research). If you find something that interests you, feel free to reach out with your interests, availability, and programming background. I have a few projects in mind and would be happy to discuss them with you.  
 
-If you are interested in learning more about my work, or if you are a **prospective graduate student or postdoctoral applicant** seeking suggestions or feedback, you are also welcome to get in touch.  
+If you are interested in learning more about my work, or if you are a prospective graduate student or postdoctoral applicant seeking suggestions or feedback, you are also welcome to get in touch.  
 
 Contact me at <span style="color:blue">AbhijeetAnand[at]lbl.gov</span>  
 
