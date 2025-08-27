@@ -27,7 +27,8 @@ Astronomy and Astrophysics
 
 [**SDSS V**](https://www.sdss.org/future/): Official SDSS-V website.  
 [**SDSS Data Release 16**](https://www.sdss.org/dr16/): Publicly available SDSS DR16 data and catalogues.          
-[**DESI Data Release**](https://data.desi.lbl.gov/doc/): Publicly available DESI Early Data Release and catalogues.               
+[**DESI Early Data Release**](https://data.desi.lbl.gov/doc/releases/edr/): Publicly available DESI Early Data Release and catalogues. It includes spectra for 1.8 million unique targets from Survey Validation observations taken from December 2020 through June 2021.
+[**DESI Data Release 1**](https://data.desi.lbl.gov/doc/releases/dr1/): Publicly available DESI Data Release 1 and catalogues. It includes spectra for more than 18 million unique targets from Main Survey observations taken between May 2021 and June 2022.              
 [**Legacy Survey**](https://www.legacysurvey.org/dr10/description/): Publicly available legacy imaging survey data.  
 [**Hubble Space Telescope**](https://www.nasa.gov/mission_pages/hubble/main/index.html): Official NASA HST page.  
 [**HST Archival Data**](https://archive.stsci.edu/missions-and-data/hst): Data products from HST.  
@@ -49,6 +50,7 @@ Astronomy and Astrophysics
 [**FIRE Simulations**](https://fire.northwestern.edu/about-fire/): Simulating ISM and CGM of galaxies.  
 [**EAGLE Project**](http://icc.dur.ac.uk/Eagle/): Simulation aimed at understanding how galaxies form and evolve.  
 [**L-Galaxies Project**](https://lgalaxiespublicrelease.github.io/): Semi-analytic models of galaxy formation built upon dark matter simulation only such as [Millenium.](https://wwwmpa.mpa-garching.mpg.de/galform/virgo/millennium/)  
+[**MultiModelUniverse**](https://github.com/MultimodalUniverse/MultimodalUniverse): The Multimodal Universe dataset is a large scale collection of multimodal astronomical data, including images, spectra, and light curves, which aims to enable research into foundation models for astrophysics and beyond.
 
 Programming Links
 -----------------
