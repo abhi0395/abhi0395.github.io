@@ -17,11 +17,11 @@ header:
 
 ## About me
 
-My name is **Abhijeet Anand** (Hindi: अभिजीत आनंद, pronounced *UH-B-h-ee-J-EE-T aa-nund*).  
+Hi, My name is Abhijeet Anand (Hindi: अभिजीत आनंद, pronounced *UH-B-h-ee-J-EE-T aa-nund*).  
 
-I am currently a **Postdoctoral Scientist** at [Lawrence Berkeley National Laboratory](https://en.wikipedia.org/wiki/Lawrence_Berkeley_National_Laboratory), where I have been part of the [Dark Energy Spectroscopic Instrument (DESI)](https://www.desi.lbl.gov/) collaboration since September 2022. I am also core member of DESI's data systems and operations teams.
+I am currently a Postdoctoral Scientist at [Lawrence Berkeley National Laboratory](https://en.wikipedia.org/wiki/Lawrence_Berkeley_National_Laboratory), where I have been part of the [Dark Energy Spectroscopic Instrument (DESI)](https://www.desi.lbl.gov/) collaboration since September 2022. I am also core member of DESI's data systems and operations teams.
 
-Previously, I was an [IMPRS PhD Fellow](https://www.imprs-astro.mpg.de/content/student-class-2018-2021.html) at the [Max Planck Institute for Astrophysics (MPA)](https://www.mpa-garching.mpg.de/) from September 2018 to July 2022, and earned my **PhD in Astrophysics** from the [Ludwig Maximilian University of Munich (LMU)](https://en.wikipedia.org/wiki/Ludwig_Maximilian_University_of_Munich). After completing my PhD, I continued at MPA as a **Bridge Postdoctoral Fellow** before moving to Berkeley Lab in mid-2022. Earlier, I completed my BS-MS in Physics at the [Indian Institute of Science (IISc)](https://en.wikipedia.org/wiki/Indian_Institute_of_Science), [Bangalore](https://en.wikipedia.org/wiki/Bangalore), in July 2017. From September 2017 to July 2018, I worked as a Junior Research Fellow (JRF) at the [National Institute of Advanced Studies (NIAS)](https://en.wikipedia.org/wiki/National_Institute_of_Advanced_Studies), Bangalore.  
+Previously, I was an [IMPRS PhD Fellow](https://www.imprs-astro.mpg.de/content/student-class-2018-2021.html) at the [Max Planck Institute for Astrophysics (MPA)](https://www.mpa-garching.mpg.de/) from September 2018 to July 2022, and earned my PhD in Astrophysics from the [Ludwig Maximilian University of Munich (LMU)](https://en.wikipedia.org/wiki/Ludwig_Maximilian_University_of_Munich). After completing my PhD, I continued at MPA as a Bridge Postdoctoral Fellow before moving to Berkeley Lab in mid-2022. Earlier, I completed my BS-MS in Physics at the [Indian Institute of Science (IISc)](https://en.wikipedia.org/wiki/Indian_Institute_of_Science), [Bangalore](https://en.wikipedia.org/wiki/Bangalore), in July 2017. From September 2017 to July 2018, I worked as a Junior Research Fellow (JRF) at the [National Institute of Advanced Studies (NIAS)](https://en.wikipedia.org/wiki/National_Institute_of_Advanced_Studies), Bangalore.  
 
 I am originally from [Patna](https://en.wikipedia.org/wiki/Patna), India. You can find more about me [here](/pages/detailabout).
 
