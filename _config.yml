@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Abhijeet Anand, PhD"
   avatar           : "profile3.jpg"
-  bio              : "Postdoctoral Fellow at Berkeley National Lab"
-  location         : "Berkeley, CA"
+  bio              : "Postdoctoral Fellow at IUCAA Pune"
+  location         : "Pune, India"
   employer         : 
   #pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    :  "https://scholar.google.com/citations?hl=en&user=MfOuq1IAAAAJ"
@@ -255,7 +255,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: India/Kolkata # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
