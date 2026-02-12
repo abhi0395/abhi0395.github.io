@@ -19,7 +19,7 @@ header:
 
 Hi, My name is Abhijeet Anand (Hindi: अभिजीत आनंद, pronounced *UH-B-h-ee-J-EE-T aa-nund*).  
 
-I am currently an independent postdoctoral fellow at the [Inter-University Centre for Astronomy and Astrophysics (IUCAA)](https://en.wikipedia.org/wiki/Inter-University_Centre_for_Astronomy_and_Astrophysics). Previously I was  Postdoctoral Fellow at [Lawrence Berkeley National Laboratory](https://en.wikipedia.org/wiki/Lawrence_Berkeley_National_Laboratory) from Sep 2022 to Oct 2025. I am also a [builder](www.desi.lbl.gov/collaboration/desi-builders/) at [Dark Energy Spectroscopic Instrument (DESI)](https://www.desi.lbl.gov/). I was awarded buildership for my outstanding contributions to the data systems operations.
+I am currently an independent postdoctoral fellow at the [Inter-University Centre for Astronomy and Astrophysics (IUCAA)](https://en.wikipedia.org/wiki/Inter-University_Centre_for_Astronomy_and_Astrophysics) and an affiliate scientist at [Lawrence Berkeley National Laboratory](https://en.wikipedia.org/wiki/Lawrence_Berkeley_National_Laboratory) since February 2026. Previously, I was  Postdoctoral Fellow at Lawrence Berkeley National Laboratory from September 2022 to October 2025. I am also a [builder](www.desi.lbl.gov/collaboration/desi-builders/) at [Dark Energy Spectroscopic Instrument (DESI)](https://www.desi.lbl.gov/). I was awarded buildership status for my outstanding contributions to the data systems operations.
 
 Before that, I was an [IMPRS PhD Fellow](https://www.imprs-astro.mpg.de/content/student-class-2018-2021.html) at the [Max Planck Institute for Astrophysics (MPA)](https://www.mpa-garching.mpg.de/) from September 2018 to July 2022, and earned my PhD in Astrophysics from the [Ludwig Maximilian University of Munich (LMU)](https://en.wikipedia.org/wiki/Ludwig_Maximilian_University_of_Munich). After completing my PhD, I continued at MPA as a Bridge Postdoctoral Fellow before moving to Berkeley Lab in mid-2022. Earlier, I completed my BS-MS in Physics at the [Indian Institute of Science (IISc)](https://en.wikipedia.org/wiki/Indian_Institute_of_Science), [Bangalore](https://en.wikipedia.org/wiki/Bangalore), in July 2017. From September 2017 to July 2018, I worked as a Junior Research Fellow (JRF) at the [National Institute of Advanced Studies (NIAS)](https://en.wikipedia.org/wiki/National_Institute_of_Advanced_Studies), Bangalore.  
 
@@ -38,6 +38,8 @@ I’ll be very happy to hear from you!
 
 ## Latest News
 
+- **Feb 2026:** Became an affiliate scientist at Lawrence Berkeley National Lab, USA.
+- **Jan 2026:** Released v2.0.0 of [qsoabsfind](https://github.com/abhi0395/qsoabsfind).
 - **Dec 2025:** Joined IUCAA, Pune as an independent postdoctoral fellow.
 - **Aug 2025:** The [DESI Collaboration](https://www.desi.lbl.gov/) received the prestigious 2026 [AAS Berkeley Prize](https://aas.org/press/desi-collaboration-receive-2026-berkeley-prize) for meritorious research publications.  
 - **Jul 2025:** Our DESI Year 1 and 3 CIV absorber catalog paper was accepted in *The Astrophysical Journal*. Read more [here](https://arxiv.org/abs/2504.20299).  
