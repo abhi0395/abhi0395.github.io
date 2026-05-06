@@ -107,20 +107,23 @@ In another ongoing work <span style="color:blue">(Anand+ in prep.)</span> that I
 
 ### **<u>1. nmfqsofit: NMF-based Quasar Continuum Fitter</u>**
 
-Modeling quasar continua is an important challenge in quasar absorption line analysis. In [(Anand et al. 2021)](https://arxiv.org/abs/2103.15842), I developed an automated pipeline, [nmfqsofit](https://github.com/abhi0395/nmfqsofit), that models the intrinsic continuum of quasars detected in low-resolution spectroscopy. The pipeline is highly parallelized and optimized, enabling the processing of thousands of quasar spectra within minutes.
+[nmfqsofit](https://github.com/abhi0395/nmfqsofit) is a Python-based pipeline for modeling the intrinsic continua of quasars observed in low or mid-resolution spectroscopic surveys such as SDSS, DESI, WEAVE, 4MOST, HST, PFS etc. Accurate continuum modeling is a key step in quasar absorption-line studies, where the observed flux must be compared against the underlying quasar emission to identify and measure absorption features.
+
+The pipeline uses [Non-negative Matrix Factorization (NMF)](https://en.wikipedia.org/wiki/Non-negative_matrix_factorization) to construct quasar continua from a set of [NMF eigenspectra](https://github.com/abhi0395/nmfeigenspectra). In [(Anand et al. 2021)](https://arxiv.org/abs/2103.15842) and [(Anand et al. 2026, in prep.)](Anand et al. 2026, in prep.), I developed an automated NMF-based continuum-fitting framework and built high-fidelity eigenspectra using SDSS DR16 quasars. These basis vectors can be used to model continua for SDSS-like quasar spectra, including data from DESI, WEAVE, and other large spectroscopic surveys.
+
 
 <p float="center" style="text-align: center;">
   <img src="/images/mgii_work/spec.png" style="width:80%; border:1; display:block">
   <figcaption>Quasar spectra (black) with NMF continuum (red) and detected MgII absorbers (Anand et al. 2021)</figcaption>
 </p>
 
-The pipeline employs a dimensional reduction technique known as [Non-negative Matrix Factorization (NMF)](https://en.wikipedia.org/wiki/Non-negative_matrix_factorization), which decomposes the quasar intrinsic emission features into eigenvalues and eigenspectra to model the quasar continuum. I built high-fidelity NMF eigenbasis vectors using SDSS DR16 quasars that can be used to construct continua for any SDSS-like quasar spectra (e.g., DESI, WEAVE). It has been tested and validated on $\sim 1$ million quasars from SDSS DR16 and $ \sim 0.5$ million quasars from DESI. See the red curve in the figure above.
+`nmfqsofit` is highly optimized and parallelized, allowing thousands of quasar spectra to be processed within minutes. The code supports flexible continuum fitting, masking of absorption features, iterative refinement, and large-scale batch processing. It has been tested and validated on nearly **1 million quasars from SDSS DR16** and approximately **1.5 million quasars from DESI**, making it suitable for both individual spectral analysis and large absorber-catalog construction. The red curve in the figure above shows an example of the fitted quasar continuum.
 
 ### **<u>2. qsoabsfind: A Python Package for Detecting Absorption Line Doublets in Low-Resolution Quasar Spectra</u>**
 
-[qsoabsfind](https://github.com/abhi0395/qsoabsfind/tree/main) is a robust and highly efficient Python-based pipeline designed to identify absorption line doublets in low-resolution quasar spectra such as those from SDSS and DESI. It employs a matched-kernel convolution algorithm combined with adaptive signal-to-noise criteria, enabling automated detection of metal absorbers in thousands of quasar spectra within minutes. The code is optimized for parallel processing and supports batch-mode analysis on HPC clusters or single-node setups.
+[qsoabsfind](https://github.com/abhi0395/qsoabsfind/tree/main) is a robust and efficient Python pipeline for detecting absorption-line doublets in low-resolution quasar spectra, including data from SDSS and DESI. The package uses a matched-kernel convolution algorithm together with adaptive signal-to-noise criteria, allowing automated detection of metal absorbers in thousands of spectra within minutes. It is optimized for parallel processing and can be run on both single-node systems and HPC clusters.
 
-The pipeline is generic and flexible, capable of detecting a wide variety of doublet systems including **C IV, Mg II, Fe II, O VI, Si IV, Al III, and N V**. In addition to detection, the code offers built-in support for defining dynamical search parameters, wavelength windows, equivalent width measurements and estimating column densities using the apparent optical depth (AOD) method, making it suitable for a broad range of astrophysical studies involving intergalactic and circumgalactic gas.
+The code is designed to be generic and flexible, supporting a wide range of doublet systems such as **C IV, Mg II, Fe II, O VI, Si IV, Al III, N V**, and others. In addition to absorber detection, `qsoabsfind` provides tools for defining dynamic search windows, measuring equivalent widths through Gaussian fitting and trapezoidal integration, and estimating column densities using the apparent optical depth method. It can also perform targeted searches at known absorber redshifts or using existing absorber catalogs, making it useful for multi-ion studies, absorber catalog construction, and statistical analyses of the CGM and IGM.
 
 The `qsoabsfind` pipeline has been used in several large-scale absorption line surveys:
 

@@ -22,8 +22,10 @@ I also write amateur poetry (mostly in Hindi) and publish them on my [blog](http
 
 ## My love for music
 
-I am an avid listener of old Hindi songs. I am a big fan of [ghazals](https://en.wikipedia.org/wiki/Ghazal) and [hindustani classical music](https://en.wikipedia.org/wiki/Hindustani_classical_music). In my free time, I still try to play [bansuri](https://en.wikipedia.org/wiki/Bansuri), a classical bamboo musical instrument. However, I am a very amateur at it and try to learn some tips and tricks from youtube.
+I am an avid listener of old Hindi songs. I am a big fan of [ghazals](https://en.wikipedia.org/wiki/Ghazal) and [hindustani classical music](https://en.wikipedia.org/wiki/Hindustani_classical_music). In my free time, I still try to play [bansuri](https://en.wikipedia.org/wiki/Bansuri), a classical bamboo musical instrument. However, I am a very amateur at it and try to learn some tips and tricks from online classes.
 
+I have recently started learning Hindustani classical vocal music. It is a vast and deeply rich musical tradition, and I hope to gradually learn and appreciate even a tiny fraction of this beautiful universe.
 
+## Cooking
 
-
+I love cooking Indian food and occasionally enjoy exploring continental dishes as well.

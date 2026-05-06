@@ -9,9 +9,9 @@ header:
 
 
 
-A pdf copy of my publications and citations can be found [here](https://raw.githubusercontent.com/abhi0395/mycv/main-pdf/tex/pubs.pdf){:target="_blank"}, it gets automatically updated daily.
+A pdf copy of my publications and citations can be found [here](https://raw.githubusercontent.com/abhi0395/mycv/main-pdf/tex/pubs.pdf){:target="_blank"}, it gets automatically updated daily from NASA/ADS.
 
-My publications and citations are also available on [NASA/ADS](https://ui.adsabs.harvard.edu/public-libraries/YPXGQEsNQg-zR9R9YBYFXw){:target="_blank"}. Always up to date.
+My publications and citations are also available on [NASA/ADS](https://scixplorer.org/public-libraries/YPXGQEsNQg-zR9R9YBYFXw){:target="_blank"}. Always up to date.
 
 See my [google scholar]({{site.author.googlescholar}}){:target="_blank"} profile. Citations may not be up to date.
 

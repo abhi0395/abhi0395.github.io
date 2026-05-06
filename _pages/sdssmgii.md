@@ -15,8 +15,8 @@ header:
 I developed an automated absorber detection pipeline, [**qsoabsfind**](https://github.com/abhi0395/qsoabsfind), which uses a matched-kernel convolution technique and adaptive signal-to-noise criteria.  
 The pipeline is designed for high-performance analysis and can run in parallel on thousands of quasars simultaneously, significantly reducing the absorber search time.  
 
-- Latest release: [v1.0.5](https://github.com/abhi0395/qsoabsfind/releases)  
-- Features: multi-ion support (Mg II and C IV), robust absorber selection, equivalent width measurements and error estimations.
+- Latest release: [v2.0.1](https://github.com/abhi0395/qsoabsfind/releases)  
+- Features: multi-ion support, robust absorber selection, equivalent width measurements and error estimations.
 
 ---
 
