@@ -11,5 +11,5 @@ header:
 
 {% include base_path %}
 
-My updated CV can be found [here](https://github.com/abhi0395/mycv){:target="_blank"}, you can also download the pdf version there.
-In case, you're interested, a pdf version of [resume](https://raw.githubusercontent.com/abhi0395/mycv/main-pdf/tex/resume.pdf){:target="_blank"} is also available.
+My latest CV is maintained on [GitHub](https://github.com/abhi0395/mycv){:target="_blank"}, with the most recent PDF version available [here](https://raw.githubusercontent.com/abhi0395/mycv/main-pdf/tex/cv_full.pdf){:target="_blank"}.
+A PDF version of my [resume](https://raw.githubusercontent.com/abhi0395/mycv/main-pdf/tex/resume.pdf){:target="_blank"} is also available for quick reference.
